@@ -25,6 +25,8 @@ db_con_dns = {
     'dburl': {'cc': ['172.16.80.42', '11521']},
     'password': ''
 }
+gen = GenJson4Ora(script_home, db_con_dns)
+gen.MainProcess()
 # db_con_dns = {
 #     'instance': {
 #         'cc': ['apig', 'ftf', 'cic', 'cpc', 'cpc_flow', 'custc', 'oc', 'drm', 'ebc', 'pos', 'sa', 'src','ab', 'bc', 'pcc','pcb', 'inv', 'rb'],
@@ -33,5 +35,4 @@ db_con_dns = {
 #               'sett': ['10.10.88.212', '11521']},
 #     'password': '1jian8Shu!'
 # }
-gen = GenJson4Ora(script_home, db_con_dns)
-gen.MainProcess()
+
