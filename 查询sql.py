@@ -10,5 +10,3 @@ for onejob in jobList:
     ssc.queryJobExecStatus(onejob)
 
 
-#ssc.queryJobExecStatus(1020)
-#ssc.queryJobExecStatus(1014)

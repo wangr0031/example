@@ -12,6 +12,7 @@ class CombineCMOversion():
     def __init__(self, srcdirname, destdirname):
         srcdirname = srcdirname.replace('\\', '/')
         destdirname = destdirname.replace('\\', '/')
+        self.statful_app=['med-backend-product','olc-all-product','sett-backend-product']
         if srcdirname[-1] == '/':
             self.dirname = srcdirname[:-1]
         else:
@@ -100,7 +101,11 @@ class CombineCMOversion():
         if app_list:
             for oneapp in app_list:
                 filename = os.path.split(oneapp)[1]
-                dstappdir = (self.dstdir + '/app_stateless/' + filename.split('-')[0].lower() + '/app')
+                #print ("=======>{}<==========".format(filename))
+                if filename.split('.')[0].lower() in self.statful_app:
+                    dstappdir = (self.dstdir + '/app_stateful/' + filename.split('-')[0].lower() + '/app')
+                else:
+                    dstappdir = (self.dstdir + '/app_stateless/' + filename.split('-')[0].lower() + '/app')
                 if not os.path.exists(dstappdir):
                     os.makedirs(dstappdir)
                 try:
@@ -121,7 +126,6 @@ class CombineCMOversion():
             if os.path.isdir(src_full_dir_path):
                 if one == '脚本':
                     self.combine_sql(src_full_dir_path)
-
                 elif one == '应用':
                     self.combine_app(src_full_dir_path)
                 else:
@@ -134,6 +138,6 @@ class CombineCMOversion():
 
 
 if __name__ == '__main__':
-    com = CombineCMOversion(r'C:\Users\cc\Desktop\20180816验收A环境版本\CMO', r'C:\Users\cc\Desktop\20180816验收A环境版本\ok0829')
+    com = CombineCMOversion(r'C:\Users\cc\Desktop\20180829\CMO', r'C:\Users\cc\Desktop\20180829\ok0829')
     # com.combine_sql(r'C:\Users\cc\Desktop\20180809部署tmp\0816全量脚本')
     com.MainProcess()
