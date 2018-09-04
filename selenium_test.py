@@ -4,7 +4,7 @@ __author__ = 'wangrong'
 from selenium import webdriver
 import selenium.webdriver.support.ui as ui
 from time import sleep
-url="http://172.16.80.3/portal-web/#"
+url="http://172.16.80.41/portal-web/#"
 driver=webdriver.Chrome()
 wait = ui.WebDriverWait(driver,10)
 driver.get(url)
@@ -25,7 +25,9 @@ sleep(2)
 #driver.switch_to_window(driver.window_handles[1])
 try:
     text=driver.find_element_by_xpath("//*[@id='portalMainHeader']/div/div[2]/div/div[1]/input").text
+    a=driver.find_element_by_xpath('//*[@id="loginInfoViewModel2"]/ul/li[1]/div/div[1]/span').text
     print("Login success")
+    print (a)
     driver.quit()
 except Exception as err:
     print ("Login failed")

@@ -48,7 +48,7 @@ sftp_info={"ip":"172.16.17.21",
       "user":"appserver",
       "password":"appserver"
       }
-remote_path = '/lvdata/appserver/testdir'
+remote_path = '/lvdata/appserver/kunpeng41/app_stateless'
 #remote_path = '/home/v9crm/shenxia'
 match_postfix = ['.sql']
 skip_keyword = ['qmdb']
