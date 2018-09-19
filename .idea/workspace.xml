@@ -1,7 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="05034a4d-5969-490f-b36a-b39a4fb46705" name="Default Changelist" comment="" />
+    <list default="true" id="05034a4d-5969-490f-b36a-b39a4fb46705" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/com_dirs.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myrsa.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myunittest/conf/db.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myunittest/conf/ip.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myunittest/conf/midware.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myunittest/main_unittest_interface.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myunittest/test_unit_cfg.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myunittest/unit_module/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myunittest/unit_module/check_app_status.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myunittest/unit_module/check_db.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myunittest/unit_module/check_ip.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myunittest/unit_module/check_midware.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myunittest/unit_module/check_web.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parse_image_list.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/read_excel.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/比较应用.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gen_json_ora.py" beforeDir="false" afterPath="$PROJECT_DIR$/gen_json_ora.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test3.py" beforeDir="false" afterPath="$PROJECT_DIR$/test3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/合并CMO版本.py" beforeDir="false" afterPath="$PROJECT_DIR$/合并CMO版本.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/执行sql.py" beforeDir="false" afterPath="$PROJECT_DIR$/执行sql.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/查询sql.py" beforeDir="false" afterPath="$PROJECT_DIR$/查询sql.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/生成sqljson文件.py" beforeDir="false" afterPath="$PROJECT_DIR$/生成sqljson文件.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -9,17 +33,34 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/Example$request_ssc.coverage" NAME="request_ssc Coverage Results" MODIFIED="1534926229115" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Example$CMO.coverage" NAME="合并CMO版本 Coverage Results" MODIFIED="1535528046564" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Example$test2.coverage" NAME="test2 Coverage Results" MODIFIED="1533728251157" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Example$test4.coverage" NAME="test4 Coverage Results" MODIFIED="1534298322360" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Example$gen_json_ora.coverage" NAME="gen_json_ora Coverage Results" MODIFIED="1534298491772" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Example$sqljson.coverage" NAME="生成sqljson文件 Coverage Results" MODIFIED="1535619667566" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Example$sql.coverage" NAME="解析sql Coverage Results" MODIFIED="1535628060998" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Example$autotest_v9web.coverage" NAME="autotest_v9web Coverage Results" MODIFIED="1535626888098" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Example$.coverage" NAME="目录树形输出 Coverage Results" MODIFIED="1535351000351" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Example$main_unittest_interface.coverage" NAME="main_unittest_interface Coverage Results" MODIFIED="1536289383898" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/unittest" />
+    <SUITE FILE_PATH="coverage/Example$read_excel.coverage" NAME="read_excel Coverage Results" MODIFIED="1536578347056" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Example$check_ip__1_.coverage" NAME="check_ip (1) Coverage Results" MODIFIED="1536317798448" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/unittest/unit_module" />
     <SUITE FILE_PATH="coverage/Example$test.coverage" NAME="test Coverage Results" MODIFIED="1533778088344" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Example$selenium_test.coverage" NAME="selenium_test Coverage Results" MODIFIED="1535626126884" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Example$check_midware.coverage" NAME="check_midware Coverage Results" MODIFIED="1536387822051" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/myunittest/unit_module" />
+    <SUITE FILE_PATH="coverage/Example$parse_image_list.coverage" NAME="parse_image_list Coverage Results" MODIFIED="1537361981757" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Example$sqljson.coverage" NAME="生成sqljson文件 Coverage Results" MODIFIED="1537176149429" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Example$myrsa.coverage" NAME="myrsa Coverage Results" MODIFIED="1536196488374" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Example$sql.coverage" NAME="查询sql Coverage Results" MODIFIED="1537183971990" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Example$autotest_v9web.coverage" NAME="autotest_v9web Coverage Results" MODIFIED="1535700380768" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Example$test3.coverage" NAME="test3 Coverage Results" MODIFIED="1535952832943" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Example$rsa.coverage" NAME="rsa Coverage Results" MODIFIED="1536196345936" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Example$check_ip__2_.coverage" NAME="check_ip (2) Coverage Results" MODIFIED="1536318029927" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/myunittest/unit_module" />
+    <SUITE FILE_PATH="coverage/Example$CMO.coverage" NAME="合并CMO版本 Coverage Results" MODIFIED="1537354621430" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Example$check_db.coverage" NAME="check_db Coverage Results" MODIFIED="1536380566080" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/myunittest/unit_module" />
+    <SUITE FILE_PATH="coverage/Example$main_unittest_interface__1_.coverage" NAME="main_unittest_interface (1) Coverage Results" MODIFIED="1536390404382" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/myunittest" />
+    <SUITE FILE_PATH="coverage/Example$check_ip.coverage" NAME="check_ip Coverage Results" MODIFIED="1536286121701" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/unittest/module" />
+    <SUITE FILE_PATH="coverage/Example$.coverage" NAME="比较应用 Coverage Results" MODIFIED="1537354627750" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Example$rsa_test.coverage" NAME="rsa_test Coverage Results" MODIFIED="1536200301406" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Example$request_ssc.coverage" NAME="request_ssc Coverage Results" MODIFIED="1534926229115" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Example$test2.coverage" NAME="test2 Coverage Results" MODIFIED="1533728251157" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Example$mv_version_gui.coverage" NAME="mv_version_gui Coverage Results" MODIFIED="1536201585692" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Example$Unittests_in_new_testunit_py.coverage" NAME="Unittests in new_testunit.py Coverage Results" MODIFIED="1536284584243" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Example$com_version_gui.coverage" NAME="com_version_gui Coverage Results" MODIFIED="1536216978785" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Example$ss_test.coverage" NAME="ss_test Coverage Results" MODIFIED="1536583659469" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Example$selenium_test.coverage" NAME="selenium_test Coverage Results" MODIFIED="1536144131859" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -39,42 +80,54 @@
     <session id="1458551239">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="26" />
-          <entry key="project.open.time.0" value="4" />
-          <entry key="project.open.time.1" value="1" />
+          <entry key="project.closed" value="35" />
+          <entry key="project.open.time.0" value="6" />
+          <entry key="project.open.time.1" value="4" />
           <entry key="project.open.time.10" value="2" />
           <entry key="project.open.time.11" value="1" />
+          <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.6" value="9" />
           <entry key="project.open.time.7" value="9" />
           <entry key="project.open.time.8" value="6" />
-          <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="35" />
+          <entry key="project.open.time.9" value="4" />
+          <entry key="project.opened" value="44" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="log" value="148" />
-          <entry key="py" value="62" />
+          <entry key="log" value="211" />
+          <entry key="lst" value="8" />
+          <entry key="pem" value="6" />
+          <entry key="py" value="160" />
+          <entry key="spec" value="1" />
           <entry key="sql" value="1" />
+          <entry key="yml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="PLAIN_TEXT" value="148" />
-          <entry key="Python" value="62" />
+          <entry key="PLAIN_TEXT" value="226" />
+          <entry key="Python" value="160" />
           <entry key="SQL" value="1" />
+          <entry key="YAML" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="13975" />
+          <entry key="dummy" value="6" />
+          <entry key="lst" value="575" />
+          <entry key="py" value="24240" />
+          <entry key="txt" value="2" />
+          <entry key="yml" value="55" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="13975" />
+          <entry key="PLAIN_TEXT" value="583" />
+          <entry key="Python" value="24240" />
+          <entry key="YAML" value="55" />
         </counts>
       </usages-collector>
     </session>
@@ -85,101 +138,53 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/解析sql.py">
+        <entry file="file://$PROJECT_DIR$/合并CMO版本.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1007">
-              <caret line="56" column="11" selection-start-line="56" selection-start-column="11" selection-end-line="56" selection-end-column="11" />
+            <state relative-caret-position="269">
+              <caret line="60" column="50" selection-start-line="60" selection-start-column="50" selection-end-line="60" selection-end-column="50" />
               <folding>
-                <element signature="e#69#103#0" expanded="true" />
-                <marker date="1535601640771" expanded="true" signature="175:1577" ph="..." />
+                <element signature="e#79#92#0" expanded="true" />
+                <marker date="1537354386800" expanded="true" signature="155:160" ph="..." />
+                <marker date="1537354386800" expanded="true" signature="3314:3319" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/生成sqljson文件.py">
+        <entry file="file://$PROJECT_DIR$/比较应用.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="19" column="3" selection-start-line="19" selection-start-column="3" selection-end-line="19" selection-end-column="3" />
+            <state relative-caret-position="76">
+              <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+              <folding>
+                <marker date="1537354480398" expanded="true" signature="114:119" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gen_json_ora.py">
+        <entry file="file://$PROJECT_DIR$/mod_excel.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3287">
-              <caret line="177" column="58" selection-start-line="177" selection-start-column="58" selection-end-line="177" selection-end-column="58" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/执行sql.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="6" column="11" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/查询sql.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+            <state relative-caret-position="47">
+              <caret line="17" column="41" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
+              <folding>
+                <marker date="1537331150819" expanded="true" signature="472:791" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/request_ssc.py">
+        <entry file="file://$PROJECT_DIR$/parse_image_list.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="251">
-              <caret line="124" column="39" selection-start-line="124" selection-start-column="39" selection-end-line="124" selection-end-column="39" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/log/20180830-14/err_1879.log">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test4.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="8" column="36" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/selenium_test.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="6" column="5" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="34" />
+            <state relative-caret-position="216">
+              <caret line="40" column="60" selection-start-line="40" selection-start-column="60" selection-end-line="40" selection-end-column="60" />
               <folding>
-                <element signature="e#69#99#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/autotest_v9web.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="741">
-              <caret line="41" column="12" selection-start-line="41" selection-start-column="12" selection-end-line="41" selection-end-column="12" />
-              <folding>
-                <element signature="e#69#99#0" expanded="true" />
-                <marker date="1535627279241" expanded="true" signature="184:189" ph="..." />
+                <element signature="e#69#83#0" expanded="true" />
+                <marker date="1537361981742" expanded="true" signature="131:1929" ph="..." />
+                <marker date="1537361981742" expanded="true" signature="168:177" ph="..." />
+                <marker date="1537361981742" expanded="true" signature="853:1197" ph="..." />
               </folding>
             </state>
           </provider>
@@ -190,6 +195,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Python Gui" />
         <option value="Python Script" />
       </list>
     </option>
@@ -204,25 +210,67 @@
       <find>fpath</find>
       <find>mkdir</find>
       <find>dstdir</find>
+      <find>search</find>
+      <find>str</find>
+      <find>GetDnsString</find>
+      <find>re</find>
     </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/test3.py" />
         <option value="$PROJECT_DIR$/test2.py" />
         <option value="$PROJECT_DIR$/test.py" />
         <option value="$PROJECT_DIR$/test4.py" />
-        <option value="$PROJECT_DIR$/gen_json_ora.py" />
         <option value="$PROJECT_DIR$/request_ssc.py" />
         <option value="$PROJECT_DIR$/目录树形输出.py" />
-        <option value="$PROJECT_DIR$/合并CMO版本.py" />
+        <option value="$PROJECT_DIR$/autotest_v9web.py" />
+        <option value="$PROJECT_DIR$/test3.py" />
         <option value="$PROJECT_DIR$/解析sql.py" />
+        <option value="$PROJECT_DIR$/selenium_test.py" />
+        <option value="$PROJECT_DIR$/rsa.py" />
+        <option value="$PROJECT_DIR$/myrsa.py" />
+        <option value="$PROJECT_DIR$/key/OCSPrivateKey.pem" />
+        <option value="$PROJECT_DIR$/rsa_test.py" />
+        <option value="$PROJECT_DIR$/mv_version_gui.py" />
+        <option value="$PROJECT_DIR$/com_dirs.py" />
+        <option value="$PROJECT_DIR$/com_version_gui.py" />
+        <option value="$PROJECT_DIR$/new_testunit.py" />
+        <option value="$PROJECT_DIR$/unittest/module/check_db.py" />
+        <option value="$PROJECT_DIR$/unittest/module/check_midware.py" />
+        <option value="$PROJECT_DIR$/unittest/module/check_web.py" />
+        <option value="$PROJECT_DIR$/unittest/module/check_app_status.py" />
+        <option value="$PROJECT_DIR$/unittest/module/check_ip.py" />
+        <option value="$PROJECT_DIR$/unittest/main_unittest_interface.py" />
+        <option value="$PROJECT_DIR$/unittest/unit_module/check_db.py" />
+        <option value="$PROJECT_DIR$/unittest/conf/ip.lst" />
+        <option value="$PROJECT_DIR$/unittest/unit_module/check_ip.py" />
+        <option value="$PROJECT_DIR$/myunittest/unit_module/__init__.py" />
+        <option value="$PROJECT_DIR$/myunittest/1/1.py" />
+        <option value="$PROJECT_DIR$/myunittest/conf/ip.lst" />
+        <option value="$PROJECT_DIR$/myunittest/unit_module/check_web.py" />
+        <option value="$PROJECT_DIR$/myunittest/conf/db.lst" />
+        <option value="$PROJECT_DIR$/myunittest/unit_module/check_ip.py" />
+        <option value="$PROJECT_DIR$/myunittest/unit_module/check_db.py" />
+        <option value="$PROJECT_DIR$/myunittest/conf/midware.lst" />
+        <option value="$PROJECT_DIR$/myunittest/unit_module/check_midware.py" />
+        <option value="$PROJECT_DIR$/myunittest/conf/test_unit.yml" />
+        <option value="$PROJECT_DIR$/myunittest/conf/test_unit.py" />
+        <option value="$PROJECT_DIR$/myunittest/test_unit.py" />
+        <option value="$PROJECT_DIR$/myunittest/main_unittest_interface.py" />
         <option value="$PROJECT_DIR$/执行sql.py" />
+        <option value="$PROJECT_DIR$/read_excel.py" />
+        <option value="$PROJECT_DIR$/ss_test.py" />
+        <option value="$PROJECT_DIR$/gen_json_ora.py" />
         <option value="$PROJECT_DIR$/生成sqljson文件.py" />
         <option value="$PROJECT_DIR$/查询sql.py" />
-        <option value="$PROJECT_DIR$/selenium_test.py" />
-        <option value="$PROJECT_DIR$/autotest_v9web.py" />
+        <option value="$PROJECT_DIR$/mod_excel.py" />
+        <option value="$PROJECT_DIR$/合并CMO版本.py" />
+        <option value="$PROJECT_DIR$/比较应用.py" />
+        <option value="$PROJECT_DIR$/parse_image_list.py" />
       </list>
     </option>
   </component>
@@ -233,17 +281,17 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="185" />
-    <option name="y" value="135" />
+    <option name="x" value="5" />
+    <option name="y" value="260" />
     <option name="width" value="1445" />
-    <option name="height" value="885" />
+    <option name="height" value="710" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -251,18 +299,50 @@
               <item name="Example" type="b2602c69:ProjectViewProjectNode" />
               <item name="Example" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Example" type="462c0819:PsiDirectoryNode" />
+              <item name="tmp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Example" type="462c0819:PsiDirectoryNode" />
+              <item name="tmp" type="462c0819:PsiDirectoryNode" />
+              <item name="irc-web-product-20180919185104" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Example" type="462c0819:PsiDirectoryNode" />
+              <item name="tmp" type="462c0819:PsiDirectoryNode" />
+              <item name="irc-web-product-20180919185104" type="462c0819:PsiDirectoryNode" />
+              <item name="irc-web-product" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Example" type="462c0819:PsiDirectoryNode" />
+              <item name="tmp" type="462c0819:PsiDirectoryNode" />
+              <item name="irc-web-product-20180919185104" type="462c0819:PsiDirectoryNode" />
+              <item name="irc-web-product" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../PDMHandler" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Console Colors" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Python3Project\Example\myunittest" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -276,8 +356,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.解析sql">
-    <configuration name="autotest_v9web" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.parse_image_list">
+    <configuration name="比较应用" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Example" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -290,7 +370,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/autotest_v9web.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/比较应用.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -299,7 +379,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="selenium_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="合并CMO版本" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Example" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -312,7 +392,51 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/selenium_test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/合并CMO版本.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="parse_image_list" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Example" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/parse_image_list.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="查询sql" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Example" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/查询sql.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -335,6 +459,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/解析sql.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="查询sql" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Example" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/查询sql.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -519,7 +665,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="解析sql" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="执行sql" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Example" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -532,7 +678,51 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/解析sql.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/执行sql.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="查询sql" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Example" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/查询sql.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="生成sqljson文件" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Example" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/生成sqljson文件.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -542,15 +732,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.解析sql" />
-      <item itemvalue="Python.selenium_test" />
-      <item itemvalue="Python.autotest_v9web" />
+      <item itemvalue="Python.查询sql" />
+      <item itemvalue="Python.比较应用" />
+      <item itemvalue="Python.合并CMO版本" />
+      <item itemvalue="Python.生成sqljson文件" />
+      <item itemvalue="Python.parse_image_list" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.解析sql" />
-        <item itemvalue="Python.autotest_v9web" />
-        <item itemvalue="Python.selenium_test" />
+        <item itemvalue="Python.parse_image_list" />
+        <item itemvalue="Python.比较应用" />
+        <item itemvalue="Python.合并CMO版本" />
+        <item itemvalue="Python.查询sql" />
+        <item itemvalue="Python.生成sqljson文件" />
       </list>
     </recent_temporary>
   </component>
@@ -565,7 +759,40 @@
       <option name="presentableId" value="Default" />
       <updated>1533258600037</updated>
     </task>
+    <task id="LOCAL-00001" summary="ts">
+      <created>1535680341424</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1535680341424</updated>
+    </task>
+    <task id="LOCAL-00002" summary="ts">
+      <created>1535947577162</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1535947577162</updated>
+    </task>
+    <task id="LOCAL-00003" summary="ts">
+      <created>1536041154657</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1536041154657</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="Unittests_in_new_testunit_py - 2018.09.07 at 09h 37m 14s.xml">
+      <configuration name="Unittests in new_testunit.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_new_testunit_py - 2018.09.07 at 09h 39m 03s.xml">
+      <configuration name="Unittests in new_testunit.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_new_testunit_py - 2018.09.07 at 09h 43m 04s.xml">
+      <configuration name="Unittests in new_testunit.py" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -577,24 +804,24 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49876544" visible="true" weight="0.23927614" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49876544" visible="true" weight="0.25268096" />
       <window_info id="Structure" order="1" sideWeight="0.5012346" side_tool="true" weight="0.17007251" />
       <window_info id="Favorites" order="2" sideWeight="0.5012346" side_tool="true" weight="0.17007251" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4989339" weight="0.32248938" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4582744" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49798927" visible="true" weight="0.32294616" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3937677" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32827735" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32719547" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.3286119" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5010661" side_tool="true" weight="0.31744313" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32936078" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5020107" side_tool="true" weight="0.32152975" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.3286119" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.32936078" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -609,171 +836,355 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="ts" />
+    <option name="LAST_COMMIT_MESSAGE" value="ts" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/合并CMO版本.py</url>
-          <line>136</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/目录树形输出.py</url>
           <line>20</line>
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://C:/Python36/Lib/site-packages/pyasn1/codec/ber/decoder.py</url>
+          <line>1060</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://C:/Python36/Lib/site-packages/pyasn1/codec/ber/decoder.py</url>
+          <line>1143</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/myunittest/unit_module/check_midware.py</url>
+          <line>49</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/比较应用.py</url>
+          <line>47</line>
+          <option name="timeStamp" value="11" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
       <configuration name="PythonConfigurationType">
         <watch expression="sqlist.r" />
+        <watch expression="tablespace_name" language="Python" />
+        <watch expression="one_app.split()[0]" language="Python" />
       </configuration>
     </watches-manager>
   </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="watch">
+      <expression>
+        <expression-string>one_app.split()[0]</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>tablespace_name</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/log/20180816-15/err_1402.log" />
-    <entry file="file://$PROJECT_DIR$/log/20180816-15/err_1403.log" />
-    <entry file="file://$PROJECT_DIR$/log/20180816-15/success_1419.log" />
-    <entry file="file://$PROJECT_DIR$/log/20180816-15/success_1418.log" />
-    <entry file="file://$PROJECT_DIR$/log/20180816-15/success_1416.log" />
-    <entry file="file://$PROJECT_DIR$/log/20180816-15/success_1415.log" />
-    <entry file="file://$PROJECT_DIR$/log/20180816-15/success_1413.log" />
-    <entry file="file://$PROJECT_DIR$/log/20180816-15/success_1412.log" />
-    <entry file="file://$PROJECT_DIR$/log/20180816-15/success_1408.log" />
-    <entry file="file://$PROJECT_DIR$/log/20180816-15/success_1407.log" />
-    <entry file="file://$PROJECT_DIR$/log/20180816-15/success_1406.log" />
-    <entry file="file://$PROJECT_DIR$/log/20180816-15/err_1423.log" />
-    <entry file="file://$PROJECT_DIR$/log/20180816-16/err_1424.log" />
-    <entry file="file://$PROJECT_DIR$/log/20180816-15/success_1405.log" />
-    <entry file="file://$PROJECT_DIR$/log/20180816-15/err_1409.log" />
-    <entry file="file://$PROJECT_DIR$/log/20180816-15/err_1422.log" />
-    <entry file="file://$PROJECT_DIR$/log/20180816-15/err_1421.log" />
-    <entry file="file://$PROJECT_DIR$/log/20180816-15/err_1417.log" />
-    <entry file="file://$PROJECT_DIR$/log/20180816-15/err_1410.log" />
-    <entry file="file://$PROJECT_DIR$/log/20180816-15/err_1411.log" />
-    <entry file="file://$PROJECT_DIR$/log/20180816-16/err_1426.log" />
-    <entry file="file://$PROJECT_DIR$/log/20180816-16/err_1436.log" />
-    <entry file="file://$PROJECT_DIR$/log/20180816-16/err_1435.log" />
-    <entry file="file://$PROJECT_DIR$/log/20180816-16/err_1434.log" />
-    <entry file="file://$PROJECT_DIR$/log/20180822-13/err_1002.log" />
-    <entry file="file://$PROJECT_DIR$/目录树形输出.py">
+    <entry file="file://$PROJECT_DIR$/mv_version_gui.py" />
+    <entry file="file://$PROJECT_DIR$/myunittest/1/1.py" />
+    <entry file="file://$PROJECT_DIR$/myunittest/unit_module/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="17" column="46" selection-start-line="17" selection-start-column="46" selection-end-line="17" selection-end-column="46" />
-          <folding>
-            <element signature="e#69#78#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="38">
+          <caret line="2" column="15" lean-forward="true" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/log/20180827-16/success_1763.log" />
-    <entry file="file://$PROJECT_DIR$/log/20180827-16/success_1782.log" />
-    <entry file="file://$PROJECT_DIR$/log/20180827-16/err_1770.log" />
-    <entry file="file://$PROJECT_DIR$/log/20180827-16/err_1773.log" />
-    <entry file="file://$PROJECT_DIR$/log/20180827-16/err_1775.log" />
-    <entry file="file://$PROJECT_DIR$/log/20180827-16/err_1780.log" />
-    <entry file="file://$PROJECT_DIR$/log/20180827-16/err_1781.log" />
-    <entry file="file://$PROJECT_DIR$/log/20180827-16/err_1768.log" />
-    <entry file="file://$PROJECT_DIR$/log/20180827-16/err_1767.log" />
-    <entry file="file://$USER_HOME$/Desktop/20180827/yanshi/Example/解析sql.py" />
-    <entry file="file://$PROJECT_DIR$/log/20180829-14/success_1783.log" />
-    <entry file="file://$PROJECT_DIR$/合并CMO版本.py">
+    <entry file="file://$PROJECT_DIR$/myunittest/1/__init__.py" />
+    <entry file="file://C:/Python36/Lib/os.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="931">
-          <caret line="139" lean-forward="true" selection-start-line="139" selection-end-line="139" />
-          <folding>
-            <marker date="1535528046549" expanded="true" signature="140:145" ph="..." />
-          </folding>
+        <state relative-caret-position="-14">
+          <caret line="968" column="17" lean-forward="true" selection-start-line="968" selection-start-column="17" selection-end-line="968" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/log/20180830-13/err_1876.log" />
-    <entry file="file://$PROJECT_DIR$/log/20180830-13/err_1877.log" />
-    <entry file="file://$PROJECT_DIR$/log/20180830-14/err_1878.log">
+    <entry file="file://$USER_HOME$/.PyCharm2018.2/system/python_stubs/1933192067/cx_Oracle/connect.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="16" lean-forward="true" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+        <state relative-caret-position="190">
+          <caret line="10" column="14" lean-forward="true" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/解析sql.py">
+    <entry file="file://$USER_HOME$/.PyCharm2018.2/system/python_stubs/1933192067/cx_Oracle/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1007">
-          <caret line="56" column="11" selection-start-line="56" selection-start-column="11" selection-end-line="56" selection-end-column="11" />
-          <folding>
-            <element signature="e#69#103#0" expanded="true" />
-            <marker date="1535601640771" expanded="true" signature="175:1577" ph="..." />
-          </folding>
+        <state relative-caret-position="-3543" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myunittest/unit_module/check_ip.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="29" column="60" lean-forward="true" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="64" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/生成sqljson文件.py">
+    <entry file="file://C:/Python36/Lib/site-packages/pyasn1/codec/ber/decoder.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="19" column="3" selection-start-line="19" selection-start-column="3" selection-end-line="19" selection-end-column="3" />
+        <state relative-caret-position="167">
+          <caret line="1060" selection-start-line="1060" selection-end-line="1060" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gen_json_ora.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3287">
-          <caret line="177" column="58" selection-start-line="177" selection-start-column="58" selection-end-line="177" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/执行sql.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="11" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/查询sql.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/log/20180830-14/err_1879.log">
+    <entry file="file://$PROJECT_DIR$/myunittest/conf/midware.lst">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="304">
-          <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+          <caret line="16" column="6" selection-start-line="16" selection-end-line="16" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test4.py">
+    <entry file="file://$PROJECT_DIR$/myunittest/conf/test_unit.yml" />
+    <entry file="file://$PROJECT_DIR$/myunittest/main_unittest_interface.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="36" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
+        <state relative-caret-position="279">
+          <caret line="67" column="26" selection-start-line="67" selection-start-column="26" selection-end-line="67" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myunittest/test_unit_cfg.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myunittest/unit_module/check_midware.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="10" column="69" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="69" />
+          <folding>
+            <marker date="1536388511966" expanded="true" signature="125:130" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myunittest/conf/db.lst">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="40" selection-start-line="1" selection-start-column="40" selection-end-line="1" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myunittest/conf/ip.lst">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myunittest/unit_module/check_web.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="15" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log/20180910-14/err_2287.log" />
+    <entry file="file://$PROJECT_DIR$/log/20180910-15/err_2289.log" />
+    <entry file="file://$PROJECT_DIR$/log/20180910-15/err_2285.log" />
+    <entry file="file://$PROJECT_DIR$/log/20180910-15/err_2287.log" />
+    <entry file="file://$PROJECT_DIR$/执行sql.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="254">
+          <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/new_testunit.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="244">
+          <caret line="37" column="29" selection-start-line="37" selection-start-column="29" selection-end-line="37" selection-end-column="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/selenium_test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="6" column="5" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="34" />
-          <folding>
-            <element signature="e#69#99#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="152">
+          <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test4.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-646" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-347" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1824" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-119" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/read_excel.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="16" column="37" lean-forward="true" selection-start-line="14" selection-start-column="8" selection-end-line="16" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log/20180911-15/err_2387.log" />
+    <entry file="file://$PROJECT_DIR$/log/20180911-15/err_2397.log" />
+    <entry file="file://$PROJECT_DIR$/ss_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/autotest_v9web.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="741">
-          <caret line="41" column="12" selection-start-line="41" selection-start-column="12" selection-end-line="41" selection-end-column="12" />
+        <state relative-caret-position="228">
+          <caret line="44" column="34" selection-start-line="44" selection-start-column="34" selection-end-line="44" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myrsa.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gen_json_ora.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="245" column="32" lean-forward="true" selection-start-line="245" selection-start-column="32" selection-end-line="245" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log/20180912-14/err_2555.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="793">
+          <caret line="320" column="4" lean-forward="true" selection-start-line="320" selection-start-column="4" selection-end-line="320" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log/20180912-19/success_2562.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="56" lean-forward="true" selection-start-line="11" selection-start-column="56" selection-end-line="11" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com_version_gui.spec">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log/20180917-15/err_2773.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="4" lean-forward="true" selection-start-line="11" selection-start-column="19" selection-end-line="12" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log/20180917-15/err_2788.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2147">
+          <caret line="113" column="15" lean-forward="true" selection-start-line="113" selection-start-column="15" selection-end-line="113" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log/20180917-15/err_2788-custc.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="8" column="15" lean-forward="true" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log/20180917-19/success_2795.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="23" lean-forward="true" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log/20180917-19/err_2796.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="237">
+          <caret line="22" column="146" selection-start-line="22" selection-start-column="82" selection-end-line="22" selection-end-column="146" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myunittest/unit_module/check_app_status.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myunittest/unit_module/check_db.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="13" column="77" lean-forward="true" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/查询sql.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="37" lean-forward="true" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/生成sqljson文件.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="608">
+          <caret line="38" selection-start-line="38" selection-end-line="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mod_excel.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="47">
+          <caret line="17" column="41" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
           <folding>
-            <element signature="e#69#99#0" expanded="true" />
-            <marker date="1535627279241" expanded="true" signature="184:189" ph="..." />
+            <marker date="1537331150819" expanded="true" signature="472:791" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/request_ssc.py">
+    <entry file="file://$PROJECT_DIR$/比较应用.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="124" column="39" selection-start-line="124" selection-start-column="39" selection-end-line="124" selection-end-column="39" />
+        <state relative-caret-position="76">
+          <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+          <folding>
+            <marker date="1537354480398" expanded="true" signature="114:119" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/合并CMO版本.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="269">
+          <caret line="60" column="50" selection-start-line="60" selection-start-column="50" selection-end-line="60" selection-end-column="50" />
+          <folding>
+            <element signature="e#79#92#0" expanded="true" />
+            <marker date="1537354386800" expanded="true" signature="155:160" ph="..." />
+            <marker date="1537354386800" expanded="true" signature="3314:3319" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/parse_image_list.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="40" column="60" selection-start-line="40" selection-start-column="60" selection-end-line="40" selection-end-column="60" />
+          <folding>
+            <element signature="e#69#83#0" expanded="true" />
+            <marker date="1537361981742" expanded="true" signature="131:1929" ph="..." />
+            <marker date="1537361981742" expanded="true" signature="168:177" ph="..." />
+            <marker date="1537361981742" expanded="true" signature="853:1197" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>

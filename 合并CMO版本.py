@@ -13,7 +13,7 @@ class CombineCMOversion():
     def __init__(self, srcdirname, destdirname):
         srcdirname = srcdirname.replace('\\', '/')
         destdirname = destdirname.replace('\\', '/')
-        self.statful_app = ['med-backend-product', 'olc-all-product', 'sett-backend-product']
+        self.statful_app = ['med-backend-product', 'olc-all-product', 'sett-backend-product','cg-dbep-webservice-server','cg-dbep-ussdxml-server']
         if srcdirname[-1] == '/':
             self.dirname = srcdirname[:-1]
         else:
@@ -100,7 +100,8 @@ class CombineCMOversion():
                 if skip_sql_file:
                     for onesql in skip_sql_file:
                         try:
-                            skip_dir=(self.dstdir + '/qmdb/' + onelist + '/sql').lower()
+                            skip_dir=(self.dstdir + '/qmdb/' + onelist).lower()
+                            os.makedirs(skip_dir)
                             shutil.copy(onesql,skip_dir)
                         except Exception as err:
                             print(
@@ -159,6 +160,7 @@ class CombineCMOversion():
 
 
 if __name__ == '__main__':
-    com = CombineCMOversion(r'C:\Users\cc\Desktop\20180903\0903_全量', r'C:\Users\cc\Desktop\20180903\ok0903')
+    com = CombineCMOversion(r'C:\Users\cc\Desktop\格鲁版本\B', r'C:\Users\cc\Desktop\格鲁版本\ok0919')
     # com.combine_sql(r'C:\Users\cc\Desktop\20180809部署tmp\0816全量脚本')
-    com.MainProcess()
+    com.combine_app(r'C:\Users\cc\Desktop\格鲁版本\B')
+    #com.MainProcess()

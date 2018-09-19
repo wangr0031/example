@@ -15,3 +15,20 @@ class Animal:
 class Dog(Animal):
     def __init__(self,name,breed,aggressivity,life_value):
         super().__init__(name, aggressivity, life_value)
+
+import zipfile
+import  os
+
+file=r'C:/Users/cc/Desktop/20180829/CMO/应用/jobserver-all-core.zip'
+file=file.replace('\\', '/')
+zip_handle=zipfile.ZipFile(file)
+for onezipfile in zip_handle.filelist:
+    if onezipfile.file_size:
+        print (onezipfile.filename)
+print (zip_handle.namelist())
+print (zip_handle.infolist())
+print (zip_handle.filename)
+print (type(zip_handle.filelist[1]))
+print (zip_handle.filelist[7])
+print (os.path.splitext(zip_handle.filelist[7].filename)[1])
+

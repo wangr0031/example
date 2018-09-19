@@ -243,6 +243,9 @@ class GenJson4Ora():
                 tmp_config_json["dataSourceType"] = 'oracle'
                 # print ('one_user_name=',one_user_name,type(one_user_name))
                 dbstring = self.GetDnsString(one_user_name)
+                if not dbstring:
+                    print("dbconnect is incorrect!")
+                    exit()
                 tmp_config_json["url"] = dbstring
                 ##根据需要修改密码，默认密码和用户名相同
                 tmp_config_json["username"] = one_user_name
