@@ -1,10 +1,9 @@
 # -*- coding:utf-8 -*-
 import sys,os
 from PyQt5 import QtCore,QtGui
-from PyQt5 import sip
 from PyQt5.QtWidgets import (QWidget, QPushButton, QLineEdit,
                              QGridLayout, QApplication,QLabel,qApp,QMessageBox,QTextEdit)
-from com_dirs import CombineCMOversion
+from module_etc.com_dirs import CombineCMOversion
 
 class EmittingStream(QtCore.QObject):
     textWritten = QtCore.pyqtSignal(str)
