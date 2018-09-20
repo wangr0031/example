@@ -2,23 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="05034a4d-5969-490f-b36a-b39a4fb46705" name="Default Changelist" comment="add excel generate">
-      <change beforePath="$PROJECT_DIR$/.idea/Example.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Example.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/request_application.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test1.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/com_version_gui/base_library.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/com_version_gui/com_version_gui.exe.manifest" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/com_version_gui/out00-Analysis.toc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/com_version_gui/out00-EXE.toc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/com_version_gui/out00-PKG.pkg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/com_version_gui/out00-PKG.toc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/com_version_gui/out00-PYZ.pyz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/com_version_gui/out00-PYZ.toc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/com_version_gui/warncom_version_gui.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/com_version_gui/xref-com_version_gui.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/com_version_gui.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/com_version_gui.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/parse_image_list.py" beforeDir="false" afterPath="$PROJECT_DIR$/parse_image_list.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/irc-web-product-20180919185104/irc-web-product/app/app.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/request_ssc.py" beforeDir="false" afterPath="$PROJECT_DIR$/request_zcm.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/执行sql.py" beforeDir="false" afterPath="$PROJECT_DIR$/执行sql.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/查询sql.py" beforeDir="false" afterPath="$PROJECT_DIR$/查询sql.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/解析sql.py" beforeDir="false" afterPath="$PROJECT_DIR$/解析sql.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,35 +17,37 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/Example$check_midware.coverage" NAME="check_midware Coverage Results" MODIFIED="1536387822051" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/myunittest/unit_module" />
-    <SUITE FILE_PATH="coverage/Example$rsa_test.coverage" NAME="rsa_test Coverage Results" MODIFIED="1536200301406" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Example$test4.coverage" NAME="test4 Coverage Results" MODIFIED="1534298322360" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Example$sql.coverage" NAME="查询sql Coverage Results" MODIFIED="1537183971990" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Example$mv_version_gui.coverage" NAME="mv_version_gui Coverage Results" MODIFIED="1536201585692" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Example$Unittests_in_new_testunit_py.coverage" NAME="Unittests in new_testunit.py Coverage Results" MODIFIED="1536284584243" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Example$main_unittest_interface__1_.coverage" NAME="main_unittest_interface (1) Coverage Results" MODIFIED="1536390404382" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/myunittest" />
-    <SUITE FILE_PATH="coverage/Example$ss_test.coverage" NAME="ss_test Coverage Results" MODIFIED="1536583659469" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Example$read_excel.coverage" NAME="read_excel Coverage Results" MODIFIED="1536578347056" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Example$check_db.coverage" NAME="check_db Coverage Results" MODIFIED="1536380566080" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/myunittest/unit_module" />
-    <SUITE FILE_PATH="coverage/Example$test2.coverage" NAME="test2 Coverage Results" MODIFIED="1533728251157" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Example$parse_image_list.coverage" NAME="parse_image_list Coverage Results" MODIFIED="1537361981757" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Example$check_ip__1_.coverage" NAME="check_ip (1) Coverage Results" MODIFIED="1536317798448" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/unittest/unit_module" />
-    <SUITE FILE_PATH="coverage/Example$check_ip.coverage" NAME="check_ip Coverage Results" MODIFIED="1536286121701" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/unittest/module" />
-    <SUITE FILE_PATH="coverage/Example$main_unittest_interface.coverage" NAME="main_unittest_interface Coverage Results" MODIFIED="1536289383898" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/unittest" />
-    <SUITE FILE_PATH="coverage/Example$test.coverage" NAME="test Coverage Results" MODIFIED="1533778088344" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Example$CMO.coverage" NAME="合并CMO版本 Coverage Results" MODIFIED="1537354621430" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Example$selenium_test.coverage" NAME="selenium_test Coverage Results" MODIFIED="1536144131859" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Example$rsa.coverage" NAME="rsa Coverage Results" MODIFIED="1536196345936" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Example$gen_json_ora.coverage" NAME="gen_json_ora Coverage Results" MODIFIED="1534298491772" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Example$.coverage" NAME="比较应用 Coverage Results" MODIFIED="1537354627750" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Example$test3.coverage" NAME="test3 Coverage Results" MODIFIED="1535952832943" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Example$sqljson.coverage" NAME="生成sqljson文件 Coverage Results" MODIFIED="1537176149429" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Example$request_application.coverage" NAME="request_application Coverage Results" MODIFIED="1537420106471" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Example$test1.coverage" NAME="test1 Coverage Results" MODIFIED="1537408093109" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Example$main_unittest_interface.coverage" NAME="main_unittest_interface Coverage Results" MODIFIED="1536289383898" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/unittest" />
+    <SUITE FILE_PATH="coverage/Example$read_excel.coverage" NAME="read_excel Coverage Results" MODIFIED="1536578347056" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/example$parse_image_list.coverage" NAME="parse_image_list Coverage Results" MODIFIED="1537377681865" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Example$check_ip__1_.coverage" NAME="check_ip (1) Coverage Results" MODIFIED="1536317798448" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/unittest/unit_module" />
+    <SUITE FILE_PATH="coverage/Example$test.coverage" NAME="test Coverage Results" MODIFIED="1533778088344" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Example$check_midware.coverage" NAME="check_midware Coverage Results" MODIFIED="1536387822051" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/myunittest/unit_module" />
+    <SUITE FILE_PATH="coverage/Example$parse_image_list.coverage" NAME="parse_image_list Coverage Results" MODIFIED="1537361981757" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Example$sqljson.coverage" NAME="生成sqljson文件 Coverage Results" MODIFIED="1537176149429" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Example$sql.coverage" NAME="查询sql Coverage Results" MODIFIED="1537183971990" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Example$myrsa.coverage" NAME="myrsa Coverage Results" MODIFIED="1536196488374" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Example$autotest_v9web.coverage" NAME="autotest_v9web Coverage Results" MODIFIED="1535700380768" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Example$test3.coverage" NAME="test3 Coverage Results" MODIFIED="1535952832943" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Example$rsa.coverage" NAME="rsa Coverage Results" MODIFIED="1536196345936" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Example$CMO.coverage" NAME="合并CMO版本 Coverage Results" MODIFIED="1537354621430" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Example$check_ip__2_.coverage" NAME="check_ip (2) Coverage Results" MODIFIED="1536318029927" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/myunittest/unit_module" />
+    <SUITE FILE_PATH="coverage/Example$check_db.coverage" NAME="check_db Coverage Results" MODIFIED="1536380566080" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/myunittest/unit_module" />
+    <SUITE FILE_PATH="coverage/Example$main_unittest_interface__1_.coverage" NAME="main_unittest_interface (1) Coverage Results" MODIFIED="1536390404382" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/myunittest" />
+    <SUITE FILE_PATH="coverage/Example$check_ip.coverage" NAME="check_ip Coverage Results" MODIFIED="1536286121701" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/unittest/module" />
+    <SUITE FILE_PATH="coverage/Example$.coverage" NAME="比较应用 Coverage Results" MODIFIED="1537354627750" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Example$rsa_test.coverage" NAME="rsa_test Coverage Results" MODIFIED="1536200301406" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Example$request_ssc.coverage" NAME="request_ssc Coverage Results" MODIFIED="1534926229115" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Example$test2.coverage" NAME="test2 Coverage Results" MODIFIED="1533728251157" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Example$mv_version_gui.coverage" NAME="mv_version_gui Coverage Results" MODIFIED="1536201585692" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Example$Unittests_in_new_testunit_py.coverage" NAME="Unittests in new_testunit.py Coverage Results" MODIFIED="1536284584243" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Example$com_version_gui.coverage" NAME="com_version_gui Coverage Results" MODIFIED="1536216978785" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Example$ss_test.coverage" NAME="ss_test Coverage Results" MODIFIED="1536583659469" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Example$selenium_test.coverage" NAME="selenium_test Coverage Results" MODIFIED="1536144131859" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -76,7 +68,7 @@
       <usages-collector id="statistics.lifecycle.project">
         <counts>
           <entry key="project.closed" value="35" />
-          <entry key="project.open.time.0" value="6" />
+          <entry key="project.open.time.0" value="7" />
           <entry key="project.open.time.1" value="4" />
           <entry key="project.open.time.10" value="2" />
           <entry key="project.open.time.11" value="1" />
@@ -87,7 +79,7 @@
           <entry key="project.open.time.7" value="9" />
           <entry key="project.open.time.8" value="6" />
           <entry key="project.open.time.9" value="4" />
-          <entry key="project.opened" value="44" />
+          <entry key="project.opened" value="45" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -95,7 +87,7 @@
           <entry key="log" value="211" />
           <entry key="lst" value="8" />
           <entry key="pem" value="6" />
-          <entry key="py" value="160" />
+          <entry key="py" value="172" />
           <entry key="spec" value="1" />
           <entry key="sql" value="1" />
           <entry key="yml" value="1" />
@@ -104,24 +96,24 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="PLAIN_TEXT" value="226" />
-          <entry key="Python" value="160" />
+          <entry key="Python" value="172" />
           <entry key="SQL" value="1" />
           <entry key="YAML" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="dummy" value="6" />
+          <entry key="dummy" value="9" />
           <entry key="lst" value="575" />
-          <entry key="py" value="24240" />
+          <entry key="py" value="25635" />
           <entry key="txt" value="2" />
           <entry key="yml" value="55" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="583" />
-          <entry key="Python" value="24240" />
+          <entry key="PLAIN_TEXT" value="586" />
+          <entry key="Python" value="25635" />
           <entry key="YAML" value="55" />
         </counts>
       </usages-collector>
@@ -153,18 +145,6 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/合并CMO版本.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="53" column="8" selection-start-line="53" selection-start-column="8" selection-end-line="54" selection-end-column="26" />
-              <folding>
-                <element signature="e#79#92#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/比较应用.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="76">
@@ -174,23 +154,64 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mod_excel.py">
+        <entry file="file://$PROJECT_DIR$/生成sqljson文件.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="268">
-              <caret line="17" column="41" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
+            <state relative-caret-position="722">
+              <caret line="38" selection-start-line="38" selection-end-line="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test1.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="405">
+              <caret line="45" column="37" selection-start-line="45" selection-start-column="37" selection-end-line="45" selection-end-column="37" />
+              <folding>
+                <element signature="e#70#117#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/request_application.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="9" column="30" lean-forward="true" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/request_zcm.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="361">
+              <caret line="157" column="16" selection-start-line="157" selection-start-column="16" selection-end-line="157" selection-end-column="16" />
+              <folding>
+                <element signature="e#69#84#0" expanded="true" />
+                <marker date="1537420009146" expanded="true" signature="5360:7538" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/执行sql.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="95">
+              <caret line="5" selection-start-line="5" selection-end-line="5" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/parse_image_list.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="71" column="33" lean-forward="true" selection-start-line="71" selection-start-column="33" selection-end-line="71" selection-end-column="33" />
+            <state relative-caret-position="399">
+              <caret line="126" column="93" selection-start-line="121" selection-start-column="8" selection-end-line="126" selection-end-column="93" />
               <folding>
                 <element signature="e#69#83#0" expanded="true" />
-                <marker date="1537377582197" expanded="true" signature="1375:1643" ph="..." />
-                <marker date="1537377582197" expanded="true" signature="4903:4910" ph="..." />
               </folding>
             </state>
           </provider>
@@ -228,14 +249,11 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/test2.py" />
         <option value="$PROJECT_DIR$/test.py" />
         <option value="$PROJECT_DIR$/test4.py" />
-        <option value="$PROJECT_DIR$/request_ssc.py" />
         <option value="$PROJECT_DIR$/目录树形输出.py" />
         <option value="$PROJECT_DIR$/autotest_v9web.py" />
         <option value="$PROJECT_DIR$/test3.py" />
-        <option value="$PROJECT_DIR$/解析sql.py" />
         <option value="$PROJECT_DIR$/selenium_test.py" />
         <option value="$PROJECT_DIR$/rsa.py" />
         <option value="$PROJECT_DIR$/myrsa.py" />
@@ -267,16 +285,21 @@
         <option value="$PROJECT_DIR$/myunittest/conf/test_unit.py" />
         <option value="$PROJECT_DIR$/myunittest/test_unit.py" />
         <option value="$PROJECT_DIR$/myunittest/main_unittest_interface.py" />
-        <option value="$PROJECT_DIR$/执行sql.py" />
         <option value="$PROJECT_DIR$/read_excel.py" />
         <option value="$PROJECT_DIR$/ss_test.py" />
         <option value="$PROJECT_DIR$/gen_json_ora.py" />
         <option value="$PROJECT_DIR$/生成sqljson文件.py" />
-        <option value="$PROJECT_DIR$/查询sql.py" />
         <option value="$PROJECT_DIR$/mod_excel.py" />
         <option value="$PROJECT_DIR$/合并CMO版本.py" />
         <option value="$PROJECT_DIR$/比较应用.py" />
         <option value="$PROJECT_DIR$/parse_image_list.py" />
+        <option value="$PROJECT_DIR$/test1.py" />
+        <option value="$PROJECT_DIR$/request_ssc.py" />
+        <option value="$PROJECT_DIR$/执行sql.py" />
+        <option value="$PROJECT_DIR$/查询sql.py" />
+        <option value="$PROJECT_DIR$/解析sql.py" />
+        <option value="$PROJECT_DIR$/request_application.py" />
+        <option value="$PROJECT_DIR$/request_zcm.py" />
       </list>
     </option>
   </component>
@@ -298,18 +321,29 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="example" type="b2602c69:ProjectViewProjectNode" />
-              <item name="example" type="462c0819:PsiDirectoryNode" />
+              <item name="Example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Example" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Example" type="462c0819:PsiDirectoryNode" />
+              <item name="log" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Example" type="462c0819:PsiDirectoryNode" />
+              <item name="log" type="462c0819:PsiDirectoryNode" />
+              <item name="20180920-13" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -336,7 +370,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.parse_image_list">
+  <component name="RunManager" selected="Python.request_application">
     <configuration name="比较应用" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Example" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -395,6 +429,94 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/parse_image_list.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="request_application" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Example" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="E:\Python3Project\Example\show_image_list_by_project.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="查询sql" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Example" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/查询sql.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="查询sql" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Example" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/查询sql.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="查询sql" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Example" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/查询sql.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -601,7 +723,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="查询sql" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="test1" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Example" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -614,95 +736,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/查询sql.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="查询sql" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Example" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/查询sql.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="查询sql" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Example" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/查询sql.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="查询sql" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Example" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/查询sql.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="生成sqljson文件" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Example" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/生成sqljson文件.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -712,19 +746,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.查询sql" />
       <item itemvalue="Python.比较应用" />
       <item itemvalue="Python.合并CMO版本" />
-      <item itemvalue="Python.生成sqljson文件" />
       <item itemvalue="Python.parse_image_list" />
+      <item itemvalue="Python.test1" />
+      <item itemvalue="Python.request_application" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.request_application" />
+        <item itemvalue="Python.test1" />
         <item itemvalue="Python.parse_image_list" />
         <item itemvalue="Python.比较应用" />
         <item itemvalue="Python.合并CMO版本" />
-        <item itemvalue="Python.查询sql" />
-        <item itemvalue="Python.生成sqljson文件" />
       </list>
     </recent_temporary>
   </component>
@@ -784,16 +818,15 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49876544" visible="true" weight="0.2553305" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49876544" visible="true" weight="0.25871313" />
       <window_info id="Structure" order="1" sideWeight="0.5012346" side_tool="true" weight="0.17007251" />
       <window_info id="Favorites" order="2" sideWeight="0.5012346" side_tool="true" weight="0.17007251" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49798927" visible="true" weight="0.32212582" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39370933" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49798927" visible="true" weight="0.29461756" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39235127" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32719547" />
@@ -853,6 +886,11 @@
           <line>82</line>
           <option name="timeStamp" value="13" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/request_application.py</url>
+          <line>9</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
@@ -860,11 +898,23 @@
         <watch expression="sqlist.r" />
         <watch expression="tablespace_name" language="Python" />
         <watch expression="one_app.split()[0]" language="Python" />
+        <watch expression="payload" language="Python" />
+        <watch expression="r.url" language="Python" />
       </configuration>
     </watches-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="watch">
+      <expression>
+        <expression-string>r.url</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>payload</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>one_app.split()[0]</expression-string>
         <language-id>Python</language-id>
@@ -878,24 +928,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/mv_version_gui.py" />
-    <entry file="file://$PROJECT_DIR$/myunittest/1/1.py" />
-    <entry file="file://$PROJECT_DIR$/myunittest/unit_module/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="15" lean-forward="true" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myunittest/1/__init__.py" />
-    <entry file="file://C:/Python36/Lib/os.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-14">
-          <caret line="968" column="17" lean-forward="true" selection-start-line="968" selection-start-column="17" selection-end-line="968" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.PyCharm2018.2/system/python_stubs/1933192067/cx_Oracle/connect.py" />
     <entry file="file://$USER_HOME$/.PyCharm2018.2/system/python_stubs/1933192067/cx_Oracle/__init__.py" />
     <entry file="file://$PROJECT_DIR$/myunittest/unit_module/check_ip.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -959,85 +991,21 @@
     <entry file="file://$PROJECT_DIR$/log/20180910-15/err_2289.log" />
     <entry file="file://$PROJECT_DIR$/log/20180910-15/err_2285.log" />
     <entry file="file://$PROJECT_DIR$/log/20180910-15/err_2287.log" />
-    <entry file="file://$PROJECT_DIR$/执行sql.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="254">
-          <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/new_testunit.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
-          <caret line="37" column="29" selection-start-line="37" selection-start-column="29" selection-end-line="37" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/selenium_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test4.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-646" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test3.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-347" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1824" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-119" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/read_excel.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="16" column="37" lean-forward="true" selection-start-line="14" selection-start-column="8" selection-end-line="16" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/new_testunit.py" />
+    <entry file="file://$PROJECT_DIR$/selenium_test.py" />
+    <entry file="file://$PROJECT_DIR$/test4.py" />
+    <entry file="file://$PROJECT_DIR$/test3.py" />
+    <entry file="file://$PROJECT_DIR$/test2.py" />
+    <entry file="file://$PROJECT_DIR$/test.py" />
+    <entry file="file://$PROJECT_DIR$/read_excel.py" />
     <entry file="file://$PROJECT_DIR$/log/20180911-15/err_2387.log" />
     <entry file="file://$PROJECT_DIR$/log/20180911-15/err_2397.log" />
-    <entry file="file://$PROJECT_DIR$/ss_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/autotest_v9web.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="44" column="34" selection-start-line="44" selection-start-column="34" selection-end-line="44" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myrsa.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gen_json_ora.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="245" column="32" lean-forward="true" selection-start-line="245" selection-start-column="32" selection-end-line="245" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/ss_test.py" />
+    <entry file="file://$PROJECT_DIR$/autotest_v9web.py" />
+    <entry file="file://$PROJECT_DIR$/myrsa.py" />
     <entry file="file://$PROJECT_DIR$/log/20180912-14/err_2555.log" />
     <entry file="file://$PROJECT_DIR$/log/20180912-19/success_2562.log" />
-    <entry file="file://$PROJECT_DIR$/com_version_gui.spec">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/com_version_gui.spec" />
     <entry file="file://$PROJECT_DIR$/log/20180917-15/err_2773.log" />
     <entry file="file://$PROJECT_DIR$/log/20180917-15/err_2788.log" />
     <entry file="file://$PROJECT_DIR$/log/20180917-15/err_2788-custc.log" />
@@ -1053,17 +1021,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/查询sql.py">
+    <entry file="file://$PROJECT_DIR$/mod_excel.py" />
+    <entry file="file://$PROJECT_DIR$/合并CMO版本.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="37" lean-forward="true" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
+        <state relative-caret-position="-1603">
+          <caret line="54" column="26" lean-forward="true" selection-start-line="54" selection-start-column="26" selection-end-line="54" selection-end-column="26" />
+          <folding>
+            <element signature="e#79#92#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/生成sqljson文件.py">
+    <entry file="file://$PROJECT_DIR$/gen_json_ora.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="608">
-          <caret line="38" selection-start-line="38" selection-end-line="38" />
+        <state relative-caret-position="2672">
+          <caret line="271" column="18" lean-forward="true" selection-start-line="271" selection-start-column="18" selection-end-line="271" selection-end-column="18" />
         </state>
       </provider>
     </entry>
@@ -1074,32 +1046,79 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mod_excel.py">
+    <entry file="file://$PROJECT_DIR$/目录树形输出.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/生成sqljson文件.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="17" column="41" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
+        <state relative-caret-position="722">
+          <caret line="38" selection-start-line="38" selection-end-line="38" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/合并CMO版本.py">
+    <entry file="file://$PROJECT_DIR$/解析sql.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="53" column="8" selection-start-line="53" selection-start-column="8" selection-end-line="54" selection-end-column="26" />
+        <state relative-caret-position="57">
+          <caret line="3" column="34" selection-start-line="3" selection-start-column="34" selection-end-line="3" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/查询sql.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="45" column="37" selection-start-line="45" selection-start-column="37" selection-end-line="45" selection-end-column="37" />
           <folding>
-            <element signature="e#79#92#0" expanded="true" />
+            <element signature="e#70#117#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python36/Lib/json/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="230" selection-start-line="230" selection-end-line="230" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/parse_image_list.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="71" column="33" lean-forward="true" selection-start-line="71" selection-start-column="33" selection-end-line="71" selection-end-column="33" />
+        <state relative-caret-position="399">
+          <caret line="126" column="93" selection-start-line="121" selection-start-column="8" selection-end-line="126" selection-end-column="93" />
           <folding>
             <element signature="e#69#83#0" expanded="true" />
-            <marker date="1537377582197" expanded="true" signature="1375:1643" ph="..." />
-            <marker date="1537377582197" expanded="true" signature="4903:4910" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/执行sql.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" selection-start-line="5" selection-end-line="5" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/request_zcm.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="157" column="16" selection-start-line="157" selection-start-column="16" selection-end-line="157" selection-end-column="16" />
+          <folding>
+            <element signature="e#69#84#0" expanded="true" />
+            <marker date="1537420009146" expanded="true" signature="5360:7538" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/request_application.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="30" lean-forward="true" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
         </state>
       </provider>
     </entry>

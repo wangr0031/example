@@ -1,9 +1,9 @@
 #!/usr/bin/env python
 # -*- coding:utf-8 -*-
 __author__ = 'wangrong'
-from request_ssc import SscRequest
+from request_zcm import ZcmRequest
 
-ssc=SscRequest('10.45.80.26','18280')
+ssc=ZcmRequest('10.45.80.26','18280')
 ##执行sql.zip
 ## fileName, filePath, ftpHost, userName, passWord
 #ssc.ExecuteSqlZipFromServer("string","string","string","string","string")

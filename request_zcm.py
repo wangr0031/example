@@ -4,22 +4,35 @@ __author__ = 'wangrong'
 import requests
 import json
 import datetime
-import os
-import re
+import os,re
+from openpyxl import Workbook
+from openpyxl.styles import Font,PatternFill
 
+project_code_map = {'dbeptest1': [562023, 3061],
+                    'dbeptest2': [562024, 3061],
+                    'dbepdc': [562057, 2],
+                    'dbepuat1': [562063, 2]}
+class ZcmRequest():
 
-class SscRequest():
-    def __init__(self, request_ip, port, IsHttps='N'):
+    def __init__(self, request_ip, port=None, IsHttps='N'):
         self.global_header = {'Content-Type': 'application/json;charset=UTF-8',
                               "Accept": "*/*"}
-        if IsHttps.upper() == 'Y':
-            self.request_url = 'https://' + request_ip + ':' + port
+        if port is not None:
+            if IsHttps.upper() == 'Y':
+                self.request_url = 'https://' + request_ip + ':' + port
+            else:
+                self.request_url = 'http://' + request_ip + ':' + port
         else:
-            self.request_url = 'http://' + request_ip + ':' + port
-        # self.current_day=datetime.datetime.now().strftime('%Y%m%d-%H')
+            if IsHttps.upper() == 'Y':
+                self.request_url = 'https://' + request_ip
+            else:
+                self.request_url = 'http://' + request_ip
+        self.postfix=datetime.datetime.now().strftime('%H%M%S')
         self.log_path = './log/{}'.format(datetime.datetime.now().strftime('%Y%m%d-%H'))
         if not os.path.exists(self.log_path):
             os.makedirs(self.log_path)
+
+
 
     def ExecuteSqlZipFromServer(self, fileName, filePath, ftpHost, userName, passWord, ftpPort=22):
         payload = {}
@@ -42,12 +55,12 @@ class SscRequest():
         response = []
         r = requests.post(requests_url, headers=self.global_header,
                           data=json.dumps(payload))
-        #print (r.json())
+        # print (r.json())
         if r.json()['status'] == 'running':
             print("\033[1;33mJob {} is running...\033[0m".format(instanceId))
             # print (json.dumps(r.json(), indent=1))
         elif r.json()['status'] == 'fail':
-            #print (r.json()['data'])
+            # print (r.json()['data'])
             total_files = 0
             total_sql_rows = 0
             for one_row in r.json()['data']:
@@ -64,7 +77,9 @@ class SscRequest():
                 total_files = total_files + 1
                 total_sql_rows = total_sql_rows + one_row['total']
             errlog = '{}/err_{}.log'.format(self.log_path, instanceId)
-            print("Execute error, log in {},Execute total < {} > files,Execute total < {} > sql rows".format(errlog,total_files,total_sql_rows))
+            print("Execute error, log in {},Execute total < {} > files,Execute total < {} > sql rows".format(errlog,
+                                                                                                             total_files,
+                                                                                                             total_sql_rows))
             json.dump(response, open(errlog, "w"), indent=1)
         elif r.json()['status'] == 'success':
             total_files = 0
@@ -74,7 +89,9 @@ class SscRequest():
                 total_sql_rows = total_sql_rows + one_row['total']
             oklog = '{}/success_{}.log'.format(self.log_path, instanceId)
             json.dump(r.json(), open(oklog, "w"), indent=1)
-            print('Execute successfully,log in {},Execute total files is < {} > files,Execute total < {} > sql rows'.format(oklog,total_files,total_sql_rows))
+            print(
+                'Execute successfully,log in {},Execute total files is < {} > files,Execute total < {} > sql rows'.format(
+                    oklog, total_files, total_sql_rows))
         else:
             print(json.dumps(r.json(), indent=1))
 
@@ -95,13 +112,80 @@ class SscRequest():
         else:
             print('Parse Result:\033[1;31m{},\n{}\033[0m'.format(r.json()['data'], r.json()['msg']))
 
-    def ParseSqlByRegExp(self, RegExp, filePath):
+    def write_map_to_excel(self,data_map):
+        wb = Workbook()
+        sheet = wb.active
+        sheet.title = "镜像列表"
+        fontObj1 = Font(name='宋体', bold=True, size=12)
+        fill = PatternFill(fill_type='solid', fgColor="98FB98")
+        try:
+            if data_map['Application']:
+                rownum = 2
+                sheet['A1'].value = "无状态应用名称"
+                sheet['B1'].value = "镜像地址"
+                # sheet.freeze_panes='A1'
+                # sheet.freeze_panes = 'B1'
+                sheet['A1'].fill = fill
+                sheet['B1'].fill = fill
+                sheet['A1'].font = fontObj1
+                sheet['B1'].font = fontObj1
+                sheet.column_dimensions['A'].width = 35
+                sheet.column_dimensions['B'].width = 80
+                for one in data_map['Application']:
+                    sheet['A%d' % rownum].value = one
+                    sheet['B%d' % rownum].value = data_map['Application'][one]
+                    rownum += 1
+        except KeyError:
+            pass
+        try:
+            if data_map['Application_Stateful']:
+                rownum = 2
+                sheet['D1'].value = "有状态应用名称"
+                sheet['E1'].value = "镜像地址"
+                # sheet.freeze_panes = 'D1'
+                # sheet.freeze_panes = 'E1'
+                sheet['D1'].fill = fill
+                sheet['E1'].fill = fill
+                sheet['D1'].font = fontObj1
+                sheet['E1'].font = fontObj1
+                sheet.column_dimensions['D'].width = 35
+                sheet.column_dimensions['E'].width = 80
+                for one in data_map['Application_Stateful']:
+                    sheet['D%d'%rownum].value=one
+                    sheet['E%d' % rownum].value = data_map['Application_Stateful'][one]
+                    rownum+=1
+        except KeyError:
+            pass
 
-        pass
+        try:
+            wb.save(self.log_path+'/'+'image.xlsx')
+            print("Excel File Generate in {}".format(self.log_path + '/' + 'image.xlsx'))
+        except PermissionError:
+            wb.save(self.log_path + '/' + 'image_new.xlsx')
+            print("Excel File Generate in {}".format(self.log_path + '/' + 'image_{}.xlsx'.format(self.postfix)))
+
+
+    def get_applications(self, project_code,page=0,size=9999):
+        global project_code_map
+        payload = {}
+        res = {'Application':{}}
+        payload['projectId'] = project_code_map[project_code][0]
+        payload['tenantId'] = project_code_map[project_code][1]
+        payload['page']=page
+        payload['size']=size
+        app_url = self.request_url + '/portal/zcm-application/applications/search'
+        r = requests.get(app_url, params=payload,timeout=10)
+        json_map = r.json()
+        for one in json_map:
+            applicationName = one['appBaseInfo']['applicationName']
+            image = one['appBaseInfo']['image']
+            res['Application'][applicationName] = image
+        self.write_map_to_excel(res)
+        print(json.dumps(res, indent=1))
 
 
 if __name__ == '__main__':
-    ssc = SscRequest('10.45.80.26', '18280')
+    ssc = ZcmRequest('10.45.80.26', '18280')
     ###查询结果
     ssc.queryJobExecStatus(1100)
     ###执行sql.zip

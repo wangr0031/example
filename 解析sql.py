@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding:utf-8 -*-
 __author__ = 'wangrong'
-from request_ssc import SscRequest
+from request_zcm import ZcmRequest
 import os, re
 import paramiko
 import stat
