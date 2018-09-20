@@ -169,20 +169,53 @@ class ZcmRequest():
         global project_code_map
         payload = {}
         res = {'Application':{}}
-        payload['projectId'] = project_code_map[project_code][0]
-        payload['tenantId'] = project_code_map[project_code][1]
-        payload['page']=page
-        payload['size']=size
-        app_url = self.request_url + '/portal/zcm-application/applications/search'
+        try:
+            payload['projectId'] = project_code_map[project_code][0]
+            payload['tenantId'] = project_code_map[project_code][1]
+            payload['page']=page
+            payload['size']=size
+            app_url = self.request_url + '/portal/zcm-application/applications/search'
+        except Exception as err:
+            print("Not Support Project:{}".format(project_code))
+            exit()
         r = requests.get(app_url, params=payload,timeout=10)
         json_map = r.json()
-        for one in json_map:
-            applicationName = one['appBaseInfo']['applicationName']
-            image = one['appBaseInfo']['image']
-            res['Application'][applicationName] = image
-        self.write_map_to_excel(res)
-        print(json.dumps(res, indent=1))
+        if json_map:
+            for one in json_map:
+                applicationName = one['appBaseInfo']['applicationName']
+                image = one['appBaseInfo']['image']
+                res['Application'][applicationName] = image
+        return res
+        # self.write_map_to_excel(res)
+        # print(json.dumps(res, indent=1))
 
+    def get_stateful_application(self,project_code):
+        global project_code_map
+        payload={}
+        res = {'Application_Stateful': {}}
+        try:
+            payload['projectId'] = project_code_map[project_code][0]
+            payload['tenantId'] = project_code_map[project_code][1]
+            app_url = self.request_url + '/portal/zcm-resource/StatefulApplication/select'
+        except Exception as err:
+            print ("Not Support Project:{}".format(project_code))
+            exit()
+        r = requests.get(app_url, params=payload, timeout=10)
+        json_map = r.json()
+        if json_map:
+            for one in json_map:
+                applicationName = one['applicationName']
+                image = one['imageName']
+                res['Application_Stateful'][applicationName] = image
+        return res
+
+    def get_app_image_list(self,project_code):
+        res_app=self.get_applications(project_code)
+        res_state_app=self.get_stateful_application(project_code)
+        total_res=dict(res_app,**res_state_app)
+        print (total_res)
+        self.write_map_to_excel(total_res)
+        print(json.dumps(total_res, indent=1))
 
 if __name__ == '__main__':
     ssc = ZcmRequest('10.45.80.26', '18280')
