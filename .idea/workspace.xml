@@ -1,14 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="05034a4d-5969-490f-b36a-b39a4fb46705" name="Default Changelist" comment="add excel generate">
-      <change afterPath="$PROJECT_DIR$/request_application.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test1.py" afterDir="false" />
+    <list default="true" id="05034a4d-5969-490f-b36a-b39a4fb46705" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/request_ssc.py" beforeDir="false" afterPath="$PROJECT_DIR$/request_zcm.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/执行sql.py" beforeDir="false" afterPath="$PROJECT_DIR$/执行sql.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/查询sql.py" beforeDir="false" afterPath="$PROJECT_DIR$/查询sql.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/解析sql.py" beforeDir="false" afterPath="$PROJECT_DIR$/解析sql.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/request_zcm.py" beforeDir="false" afterPath="$PROJECT_DIR$/request_zcm.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/show_image_list_by_project.py" beforeDir="false" afterPath="$PROJECT_DIR$/show_image_list_by_project.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/合并CMO版本.py" beforeDir="false" afterPath="$PROJECT_DIR$/合并CMO版本.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,6 +21,7 @@
     <SUITE FILE_PATH="coverage/Example$main_unittest_interface.coverage" NAME="main_unittest_interface Coverage Results" MODIFIED="1536289383898" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/unittest" />
     <SUITE FILE_PATH="coverage/Example$read_excel.coverage" NAME="read_excel Coverage Results" MODIFIED="1536578347056" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/example$parse_image_list.coverage" NAME="parse_image_list Coverage Results" MODIFIED="1537377681865" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Example$show_image_list_by_project.coverage" NAME="show_image_list_by_project Coverage Results" MODIFIED="1537457843770" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Example$check_ip__1_.coverage" NAME="check_ip (1) Coverage Results" MODIFIED="1536317798448" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/unittest/unit_module" />
     <SUITE FILE_PATH="coverage/Example$test.coverage" NAME="test Coverage Results" MODIFIED="1533778088344" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Example$check_midware.coverage" NAME="check_midware Coverage Results" MODIFIED="1536387822051" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/myunittest/unit_module" />
@@ -87,7 +85,7 @@
           <entry key="log" value="211" />
           <entry key="lst" value="8" />
           <entry key="pem" value="6" />
-          <entry key="py" value="172" />
+          <entry key="py" value="173" />
           <entry key="spec" value="1" />
           <entry key="sql" value="1" />
           <entry key="yml" value="1" />
@@ -96,24 +94,24 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="PLAIN_TEXT" value="226" />
-          <entry key="Python" value="172" />
+          <entry key="Python" value="173" />
           <entry key="SQL" value="1" />
           <entry key="YAML" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="dummy" value="9" />
+          <entry key="dummy" value="48" />
           <entry key="lst" value="575" />
-          <entry key="py" value="25635" />
-          <entry key="txt" value="2" />
+          <entry key="py" value="26011" />
+          <entry key="txt" value="44" />
           <entry key="yml" value="55" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="586" />
-          <entry key="Python" value="25635" />
+          <entry key="PLAIN_TEXT" value="667" />
+          <entry key="Python" value="26011" />
           <entry key="YAML" value="55" />
         </counts>
       </usages-collector>
@@ -145,10 +143,22 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/合并CMO版本.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="139">
+              <caret line="167" selection-start-line="167" selection-end-line="167" />
+              <folding>
+                <element signature="e#79#92#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/比较应用.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+            <state relative-caret-position="171">
+              <caret line="24" column="29" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -175,10 +185,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/request_application.py">
+        <entry file="file://$PROJECT_DIR$/show_image_list_by_project.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="9" column="30" lean-forward="true" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
+            <state relative-caret-position="152">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
             </state>
           </provider>
         </entry>
@@ -186,11 +196,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/request_zcm.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="157" column="16" selection-start-line="157" selection-start-column="16" selection-end-line="157" selection-end-column="16" />
+            <state relative-caret-position="285">
+              <caret line="227" column="9" selection-start-line="227" selection-start-column="9" selection-end-line="227" selection-end-column="9" />
               <folding>
                 <element signature="e#69#84#0" expanded="true" />
-                <marker date="1537420009146" expanded="true" signature="5360:7538" ph="..." />
+                <marker date="1537457843750" expanded="true" signature="5380:7811" ph="..." />
               </folding>
             </state>
           </provider>
@@ -208,8 +218,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/parse_image_list.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="126" column="93" selection-start-line="121" selection-start-column="8" selection-end-line="126" selection-end-column="93" />
+            <state relative-caret-position="95">
+              <caret line="104" column="45" selection-start-line="104" selection-start-column="25" selection-end-line="104" selection-end-column="45" />
               <folding>
                 <element signature="e#69#83#0" expanded="true" />
               </folding>
@@ -249,7 +259,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/test.py" />
         <option value="$PROJECT_DIR$/test4.py" />
         <option value="$PROJECT_DIR$/目录树形输出.py" />
         <option value="$PROJECT_DIR$/autotest_v9web.py" />
@@ -290,7 +299,6 @@
         <option value="$PROJECT_DIR$/gen_json_ora.py" />
         <option value="$PROJECT_DIR$/生成sqljson文件.py" />
         <option value="$PROJECT_DIR$/mod_excel.py" />
-        <option value="$PROJECT_DIR$/合并CMO版本.py" />
         <option value="$PROJECT_DIR$/比较应用.py" />
         <option value="$PROJECT_DIR$/parse_image_list.py" />
         <option value="$PROJECT_DIR$/test1.py" />
@@ -299,6 +307,8 @@
         <option value="$PROJECT_DIR$/查询sql.py" />
         <option value="$PROJECT_DIR$/解析sql.py" />
         <option value="$PROJECT_DIR$/request_application.py" />
+        <option value="$PROJECT_DIR$/合并CMO版本.py" />
+        <option value="$PROJECT_DIR$/show_image_list_by_project.py" />
         <option value="$PROJECT_DIR$/request_zcm.py" />
       </list>
     </option>
@@ -328,17 +338,6 @@
             <path>
               <item name="Example" type="b2602c69:ProjectViewProjectNode" />
               <item name="Example" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Example" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Example" type="462c0819:PsiDirectoryNode" />
-              <item name="log" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Example" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Example" type="462c0819:PsiDirectoryNode" />
-              <item name="log" type="462c0819:PsiDirectoryNode" />
-              <item name="20180920-13" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -370,7 +369,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.request_application">
+  <component name="RunManager" selected="Python.show_image_list_by_project">
     <configuration name="比较应用" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Example" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -385,28 +384,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/比较应用.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="合并CMO版本" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Example" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/合并CMO版本.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -451,6 +428,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="E:\Python3Project\Example\show_image_list_by_project.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="show_image_list_by_project" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Example" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/show_image_list_by_project.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -747,18 +746,18 @@
     </configuration>
     <list>
       <item itemvalue="Python.比较应用" />
-      <item itemvalue="Python.合并CMO版本" />
       <item itemvalue="Python.parse_image_list" />
       <item itemvalue="Python.test1" />
       <item itemvalue="Python.request_application" />
+      <item itemvalue="Python.show_image_list_by_project" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.show_image_list_by_project" />
         <item itemvalue="Python.request_application" />
         <item itemvalue="Python.test1" />
         <item itemvalue="Python.parse_image_list" />
         <item itemvalue="Python.比较应用" />
-        <item itemvalue="Python.合并CMO版本" />
       </list>
     </recent_temporary>
   </component>
@@ -794,7 +793,21 @@
       <option name="project" value="LOCAL" />
       <updated>1536041154657</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="新增查询项目下的应用与镜像的对应关系-requests">
+      <created>1537420242144</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1537420242144</updated>
+    </task>
+    <task id="LOCAL-00005" summary="新增查询项目下的有状态应用与镜像的对应关系-requests">
+      <created>1537426297482</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1537426297482</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -819,13 +832,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49876544" visible="true" weight="0.25871313" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49876544" visible="true" weight="0.25871313" />
       <window_info id="Structure" order="1" sideWeight="0.5012346" side_tool="true" weight="0.17007251" />
       <window_info id="Favorites" order="2" sideWeight="0.5012346" side_tool="true" weight="0.17007251" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49798927" visible="true" weight="0.29461756" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49798927" visible="true" weight="0.3569405" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39235127" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -851,7 +865,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="ts" />
-    <option name="LAST_COMMIT_MESSAGE" value="ts" />
+    <MESSAGE value="新增查询项目下的应用与镜像的对应关系-requests" />
+    <MESSAGE value="新增查询项目下的有状态应用与镜像的对应关系-requests" />
+    <option name="LAST_COMMIT_MESSAGE" value="新增查询项目下的有状态应用与镜像的对应关系-requests" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -887,8 +903,8 @@
           <option name="timeStamp" value="13" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/request_application.py</url>
-          <line>9</line>
+          <url>file://$PROJECT_DIR$/show_image_list_by_project.py</url>
+          <line>6</line>
           <option name="timeStamp" value="14" />
         </line-breakpoint>
       </breakpoints>
@@ -1022,27 +1038,10 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mod_excel.py" />
-    <entry file="file://$PROJECT_DIR$/合并CMO版本.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1603">
-          <caret line="54" column="26" lean-forward="true" selection-start-line="54" selection-start-column="26" selection-end-line="54" selection-end-column="26" />
-          <folding>
-            <element signature="e#79#92#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/gen_json_ora.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2672">
           <caret line="271" column="18" lean-forward="true" selection-start-line="271" selection-start-column="18" selection-end-line="271" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/比较应用.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
         </state>
       </provider>
     </entry>
@@ -1087,16 +1086,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/parse_image_list.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="126" column="93" selection-start-line="121" selection-start-column="8" selection-end-line="126" selection-end-column="93" />
-          <folding>
-            <element signature="e#69#83#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/执行sql.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
@@ -1104,21 +1093,48 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/request_zcm.py">
+    <entry file="file://$PROJECT_DIR$/parse_image_list.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="157" column="16" selection-start-line="157" selection-start-column="16" selection-end-line="157" selection-end-column="16" />
+        <state relative-caret-position="95">
+          <caret line="104" column="45" selection-start-line="104" selection-start-column="25" selection-end-line="104" selection-end-column="45" />
           <folding>
-            <element signature="e#69#84#0" expanded="true" />
-            <marker date="1537420009146" expanded="true" signature="5360:7538" ph="..." />
+            <element signature="e#69#83#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/request_application.py">
+    <entry file="file://$PROJECT_DIR$/比较应用.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
-          <caret line="9" column="30" lean-forward="true" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
+          <caret line="24" column="29" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/合并CMO版本.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139">
+          <caret line="167" selection-start-line="167" selection-end-line="167" />
+          <folding>
+            <element signature="e#79#92#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/request_zcm.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="227" column="9" selection-start-line="227" selection-start-column="9" selection-end-line="227" selection-end-column="9" />
+          <folding>
+            <element signature="e#69#84#0" expanded="true" />
+            <marker date="1537457843750" expanded="true" signature="5380:7811" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/show_image_list_by_project.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>

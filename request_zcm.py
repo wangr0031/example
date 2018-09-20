@@ -113,6 +113,7 @@ class ZcmRequest():
             print('Parse Result:\033[1;31m{},\n{}\033[0m'.format(r.json()['data'], r.json()['msg']))
 
     def write_map_to_excel(self,data_map):
+        status=True
         wb = Workbook()
         sheet = wb.active
         sheet.title = "镜像列表"
@@ -135,7 +136,10 @@ class ZcmRequest():
                     sheet['A%d' % rownum].value = one
                     sheet['B%d' % rownum].value = data_map['Application'][one]
                     rownum += 1
+            else:
+                status = False
         except KeyError:
+            status = False
             pass
         try:
             if data_map['Application_Stateful']:
@@ -154,15 +158,21 @@ class ZcmRequest():
                     sheet['D%d'%rownum].value=one
                     sheet['E%d' % rownum].value = data_map['Application_Stateful'][one]
                     rownum+=1
+            else:
+                status = False
         except KeyError:
+            status = False
             pass
 
-        try:
-            wb.save(self.log_path+'/'+'image.xlsx')
-            print("Excel File Generate in {}".format(self.log_path + '/' + 'image.xlsx'))
-        except PermissionError:
-            wb.save(self.log_path + '/' + 'image_new.xlsx')
-            print("Excel File Generate in {}".format(self.log_path + '/' + 'image_{}.xlsx'.format(self.postfix)))
+        if status:
+            try:
+                wb.save(self.log_path+'/'+'image.xlsx')
+                print("Excel File Generate in {}".format(self.log_path + '/' + 'image.xlsx'))
+            except PermissionError:
+                wb.save(self.log_path + '/' + 'image_new.xlsx')
+                print("Excel File Generate in {}".format(self.log_path + '/' + 'image_{}.xlsx'.format(self.postfix)))
+        else:
+            print("Application Not Found!")
 
 
     def get_applications(self, project_code,page=0,size=9999):
@@ -213,9 +223,9 @@ class ZcmRequest():
         res_app=self.get_applications(project_code)
         res_state_app=self.get_stateful_application(project_code)
         total_res=dict(res_app,**res_state_app)
-        print (total_res)
+        #print (total_res)
         self.write_map_to_excel(total_res)
-        print(json.dumps(total_res, indent=1))
+        #print(json.dumps(total_res, indent=1))
 
 if __name__ == '__main__':
     ssc = ZcmRequest('10.45.80.26', '18280')

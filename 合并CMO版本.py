@@ -13,7 +13,8 @@ class CombineCMOversion():
     def __init__(self, srcdirname, destdirname):
         srcdirname = srcdirname.replace('\\', '/')
         destdirname = destdirname.replace('\\', '/')
-        self.statful_app = ['med-backend-product', 'olc-all-product', 'sett-backend-product','cg-dbep-webservice-server','cg-dbep-ussdxml-server']
+        self.statful_app = ['med-backend-product', 'olc-all-product', 'sett-backend-product',
+                            'cg-dbep-webservice-server-core', 'cg-dbep-ussdxml-server-core']
         if srcdirname[-1] == '/':
             self.dirname = srcdirname[:-1]
         else:
@@ -48,7 +49,7 @@ class CombineCMOversion():
                         fullfile = (dirpath + '/' + file).replace('\\', '/')
                         all_sql_file.append(fullfile)
 
-        return all_sql_file,skip_sql_file
+        return all_sql_file, skip_sql_file
 
     def get_app_file(self, full_dirpath, skip_file=['sql.zip'], match_postfix=['.zip']):
         all_app_file = []
@@ -84,7 +85,7 @@ class CombineCMOversion():
                 dstsqldir = (self.dstdir + '/app_stateless/' + onelist + '/sql').lower()
                 if not os.path.exists(dstsqldir):
                     os.makedirs(dstsqldir)
-                sql_list,skip_sql_file = self.get_sql_file(src_full_dir_path)
+                sql_list, skip_sql_file = self.get_sql_file(src_full_dir_path)
                 if sql_list:
                     for onesql in sql_list:
                         try:
@@ -100,9 +101,9 @@ class CombineCMOversion():
                 if skip_sql_file:
                     for onesql in skip_sql_file:
                         try:
-                            skip_dir=(self.dstdir + '/qmdb/' + onelist).lower()
+                            skip_dir = (self.dstdir + '/qmdb/' + onelist).lower()
                             os.makedirs(skip_dir)
-                            shutil.copy(onesql,skip_dir)
+                            shutil.copy(onesql, skip_dir)
                         except Exception as err:
                             print(
                                 "\033[1;33mcopy QMDB file\033[0m {} \033[1;33mto\033[0m {} \033[1;31mfailed!\033[0m errinfo:\n{}".format(
@@ -163,4 +164,4 @@ if __name__ == '__main__':
     com = CombineCMOversion(r'C:\Users\cc\Desktop\格鲁版本\B', r'C:\Users\cc\Desktop\格鲁版本\ok0919')
     # com.combine_sql(r'C:\Users\cc\Desktop\20180809部署tmp\0816全量脚本')
     com.combine_app(r'C:\Users\cc\Desktop\格鲁版本\B')
-    #com.MainProcess()
+    # com.MainProcess()
