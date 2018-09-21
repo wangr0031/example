@@ -34,7 +34,7 @@ class ZcmRequest():
 
 
 
-    def ExecuteSqlZipFromServer(self, fileName, filePath, ftpHost, userName, passWord, ftpPort=22):
+    def ExecuteSqlZipFromServer(self, fileName, filePath, ftpHost, userName, passWord,projectCode, ftpPort=22):
         payload = {}
         payload['fileName'] = fileName
         payload['filePath'] = filePath
@@ -42,6 +42,7 @@ class ZcmRequest():
         payload['userName'] = userName
         payload['passWord'] = passWord
         payload['ftpPort'] = ftpPort
+        payload['projectCode'] = projectCode
         requests_url = self.request_url + '/DeployManage/deploy'
         r = requests.post(requests_url, headers=self.global_header,
                           data=json.dumps(payload))
