@@ -10,6 +10,24 @@ class com_excel_app():
         self.excel_path = excel.replace('\\', '/')
         self.app_path = app.replace('\\', '/')
 
+    def get_app_name_from_excel_app_midware(self):
+        excelfile = xlrd.open_workbook(self.excel_path)
+        apptable = excelfile.sheet_by_name('app midware')
+        totalrows = apptable.nrows
+        totalcols = apptable.ncols
+        col_num = -1
+        for rows in range(totalrows):
+            for cols in range(totalcols):
+                if apptable.row_values(rows)[cols] == 'app_name':
+                    col_num = cols
+        if col_num >= 0:
+            col_values = apptable.col_values(col_num)
+            while '' in col_values:
+                col_values.remove('')
+            if col_values:
+                col_values.remove('app_name')
+        return col_values
+
     def get_app_name_from_excel(self):
         app_dict_from_excel = {}
         excelfile = xlrd.open_workbook(self.excel_path)
@@ -38,31 +56,41 @@ class com_excel_app():
                     else:
                         fullfile = (dirpath + '/' + file).replace('\\', '/')
                         all_app_file.append(fullfile)
-        return all_app_file,skip_app_file
+        return all_app_file, skip_app_file
 
     def compare(self):
         '''以目录对比文档'''
         app_dict = self.get_app_name_from_excel()
-        #print(app_dict.keys())
+        # print(app_dict.keys())
         (all_app_file, skip_app_file) = self.get_app_name_from_dir()
         for one_app in all_app_file:
             if os.path.splitext(one_app)[0] in app_dict.keys():
-                #print ("{} match".format(one_app))
+                # print ("{} match".format(one_app))
                 pass
             else:
-                print("\033[1;31mdirectory APP {} not match\033[0m".format(one_app))
+                print("\033[1;31mdirectory {} APP {} not match with Excel,please confirm & modify\033[0m".format(self.app_path, one_app))
 
     def compare2(self):
         '''以文档对比目录'''
         app_dict = self.get_app_name_from_excel()
-        #print(app_dict.keys())
+        # print(app_dict.keys())
         (all_app_file, skip_app_file) = self.get_app_name_from_dir()
         for one_app in app_dict:
-            if one_app+'.zip' in all_app_file:
-                #print ("{} match".format(one_app))
+            if one_app + '.zip' in all_app_file:
+                # print ("{} match".format(one_app))
                 pass
             else:
-                print("\033[1;31mexcel APP {} not match\033[0m".format(one_app))
+                print("\033[1;31mexcel APP info {} not match,please modify Excel {}\033[0m".format(one_app,self.excel_path))
+
+    def compare3(self):
+        app_dict = self.get_app_name_from_excel()
+        app_list = self.get_app_name_from_excel_app_midware()
+        for oneapp in app_list:
+            if oneapp in app_dict.keys():
+                pass
+            else:
+                print("\033[1;31mexcel APP info {} not match with APP midware,please modify Excel {}\033[0m".format(
+                    oneapp, self.excel_path))
 
 
 if __name__ == '__main__':
@@ -71,3 +99,4 @@ if __name__ == '__main__':
     c = com_excel_app(excel_file, app_dir)
     c.compare()
     c.compare2()
+    c.compare3()

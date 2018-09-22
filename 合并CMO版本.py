@@ -161,7 +161,7 @@ class CombineCMOversion():
 
 
 if __name__ == '__main__':
-    com = CombineCMOversion(r'C:\Users\cc\Desktop\格鲁版本\B', r'C:\Users\cc\Desktop\格鲁版本\ok0919')
+    com = CombineCMOversion(r'C:\Users\cc\Desktop\所内测试\0921_OM', r'C:\Users\cc\Desktop\所内测试\ok0921-om')
     # com.combine_sql(r'C:\Users\cc\Desktop\20180809部署tmp\0816全量脚本')
-    com.combine_app(r'C:\Users\cc\Desktop\格鲁版本\B')
-    # com.MainProcess()
+    #com.combine_app(r'C:\Users\cc\Desktop\格鲁版本\B')
+    com.MainProcess()

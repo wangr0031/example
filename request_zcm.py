@@ -4,14 +4,16 @@ __author__ = 'wangrong'
 import requests
 import json
 import datetime
-import os,re
+import os, re
 from openpyxl import Workbook
-from openpyxl.styles import Font,PatternFill
+from openpyxl.styles import Font, PatternFill
 
 project_code_map = {'dbeptest1': [562023, 3061],
                     'dbeptest2': [562024, 3061],
                     'dbepdc': [562057, 2],
                     'dbepuat1': [562063, 2]}
+
+
 class ZcmRequest():
 
     def __init__(self, request_ip, port=None, IsHttps='N'):
@@ -27,14 +29,12 @@ class ZcmRequest():
                 self.request_url = 'https://' + request_ip
             else:
                 self.request_url = 'http://' + request_ip
-        self.postfix=datetime.datetime.now().strftime('%H%M%S')
+        self.postfix = datetime.datetime.now().strftime('%H%M%S')
         self.log_path = './log/{}'.format(datetime.datetime.now().strftime('%Y%m%d-%H'))
         if not os.path.exists(self.log_path):
             os.makedirs(self.log_path)
 
-
-
-    def ExecuteSqlZipFromServer(self, fileName, filePath, ftpHost, userName, passWord,projectCode, ftpPort=22):
+    def ExecuteSqlZipFromServer(self, fileName, filePath, ftpHost, userName, passWord, projectCode, ftpPort=22):
         payload = {}
         payload['fileName'] = fileName
         payload['filePath'] = filePath
@@ -113,8 +113,8 @@ class ZcmRequest():
         else:
             print('Parse Result:\033[1;31m{},\n{}\033[0m'.format(r.json()['data'], r.json()['msg']))
 
-    def write_map_to_excel(self,data_map):
-        status=True
+    def write_map_to_excel(self, data_map):
+        status = True
         wb = Workbook()
         sheet = wb.active
         sheet.title = "镜像列表"
@@ -156,9 +156,9 @@ class ZcmRequest():
                 sheet.column_dimensions['D'].width = 35
                 sheet.column_dimensions['E'].width = 80
                 for one in data_map['Application_Stateful']:
-                    sheet['D%d'%rownum].value=one
+                    sheet['D%d' % rownum].value = one
                     sheet['E%d' % rownum].value = data_map['Application_Stateful'][one]
-                    rownum+=1
+                    rownum += 1
             else:
                 status = False
         except KeyError:
@@ -167,7 +167,7 @@ class ZcmRequest():
 
         if status:
             try:
-                wb.save(self.log_path+'/'+'image.xlsx')
+                wb.save(self.log_path + '/' + 'image.xlsx')
                 print("Excel File Generate in {}".format(self.log_path + '/' + 'image.xlsx'))
             except PermissionError:
                 wb.save(self.log_path + '/' + 'image_new.xlsx')
@@ -175,21 +175,20 @@ class ZcmRequest():
         else:
             print("Application Not Found!")
 
-
-    def get_applications(self, project_code,page=0,size=9999):
+    def get_applications(self, project_code, page=0, size=9999):
         global project_code_map
         payload = {}
-        res = {'Application':{}}
+        res = {'Application': {}}
         try:
             payload['projectId'] = project_code_map[project_code][0]
             payload['tenantId'] = project_code_map[project_code][1]
-            payload['page']=page
-            payload['size']=size
+            payload['page'] = page
+            payload['size'] = size
             app_url = self.request_url + '/portal/zcm-application/applications/search'
         except Exception as err:
             print("Not Support Project:{}".format(project_code))
             exit()
-        r = requests.get(app_url, params=payload,timeout=10)
+        r = requests.get(app_url, params=payload, timeout=10)
         json_map = r.json()
         if json_map:
             for one in json_map:
@@ -200,33 +199,36 @@ class ZcmRequest():
         # self.write_map_to_excel(res)
         # print(json.dumps(res, indent=1))
 
-    def get_stateful_application(self,project_code):
+    def get_stateful_application(self, project_code):
         global project_code_map
-        payload={}
+        payload = {}
         res = {'Application_Stateful': {}}
         try:
             payload['projectId'] = project_code_map[project_code][0]
             payload['tenantId'] = project_code_map[project_code][1]
             app_url = self.request_url + '/portal/zcm-resource/StatefulApplication/select'
         except Exception as err:
-            print ("Not Support Project:{}".format(project_code))
+            print("Not Support Project:{}".format(project_code))
             exit()
         r = requests.get(app_url, params=payload, timeout=10)
         json_map = r.json()
         if json_map:
             for one in json_map:
                 applicationName = one['applicationName']
-                image = one['imageName']
+                image_name = one['imageName']
+                image_tag = one['imageTag']
+                image = image_name + ":" + image_tag
                 res['Application_Stateful'][applicationName] = image
         return res
 
-    def get_app_image_list(self,project_code):
-        res_app=self.get_applications(project_code)
-        res_state_app=self.get_stateful_application(project_code)
-        total_res=dict(res_app,**res_state_app)
-        #print (total_res)
+    def get_app_image_list(self, project_code):
+        res_app = self.get_applications(project_code)
+        res_state_app = self.get_stateful_application(project_code)
+        total_res = dict(res_app, **res_state_app)
+        # print (total_res)
         self.write_map_to_excel(total_res)
-        #print(json.dumps(total_res, indent=1))
+        # print(json.dumps(total_res, indent=1))
+
 
 if __name__ == '__main__':
     ssc = ZcmRequest('10.45.80.26', '18280')
