@@ -22,7 +22,7 @@ db_con_dns = {
     'instance': {
         'cc': ['apig', 'ftf', 'cic', 'cpc', 'cpc_flow', 'custc', 'oc', 'drm', 'ebc', 'pos', 'sa', 'src', 'ab', 'bc',
                'pcc', 'pcb', 'inv', 'rb', 'med', 'sett', 'stbp', 'etl', 'dap','etlsys','etlbdp']},
-    'dburl': {'cc': ['172.16.80.42', '11521']},
+    'dburl': {'cc': ['172.16.80.41', '11521']},
     'password': ''
 }
 # db_con_dns = {
@@ -32,7 +32,7 @@ db_con_dns = {
 #     'dburl': {'dbepdb': ['172.16.24.172', '1521']},
 #     'password': ''
 # }
-script_home = r'C:\Users\cc\Desktop\所内测试\ok0921-om\app_stateless'
+script_home = r'C:\Users\cc\Desktop\0925\dbeptest1\app_stateless'
 gen = GenJson4Ora(script_home, db_con_dns)
 gen.MainProcess()
 

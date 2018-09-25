@@ -85,6 +85,7 @@ class com_excel_app():
     def compare3(self):
         app_dict = self.get_app_name_from_excel()
         app_list = self.get_app_name_from_excel_app_midware()
+
         for oneapp in app_list:
             if oneapp in app_dict.keys():
                 pass
@@ -94,9 +95,10 @@ class com_excel_app():
 
 
 if __name__ == '__main__':
-    excel_file = r'C:\Users\cc\Desktop\格鲁版本\midware.xlsx'
-    app_dir = r'C:\Users\cc\Desktop\格鲁版本\ok0919'
+    excel_file = r'C:\Users\cc\Desktop\0925\dbeptest1\midware.xlsx'
+    app_dir = r'C:\Users\cc\Desktop\0925\dbeptest1'
     c = com_excel_app(excel_file, app_dir)
     c.compare()
     c.compare2()
     c.compare3()
+
