@@ -239,7 +239,19 @@ class GenJson4Ora():
                 # print (one_user_name)
                 # print (user_file_dict[one_user_name])
                 tmp_config_json = {}
-                tmp_config_json["fileSeq"] = fileSeq
+
+                #调整etlsys的顺序在etl,etlbdp之前
+                if one_user_name.lower() == 'etlsys':
+                    for oneseq in range(len(config_json)):
+                        if config_json[oneseq]['username'] in ['etl','etlbdp']:
+                            tmp_seq=config_json[oneseq]['fileSeq']
+                            if tmp_seq < fileSeq:
+                                config_json[oneseq]['fileSeq']=fileSeq
+                                tmp_etl_seq=tmp_seq
+                    tmp_config_json["fileSeq"] = tmp_etl_seq
+                else:
+                    tmp_config_json["fileSeq"] = fileSeq
+
                 tmp_config_json["dataSourceType"] = 'oracle'
                 # print ('one_user_name=',one_user_name,type(one_user_name))
                 dbstring = self.GetDnsString(one_user_name)
