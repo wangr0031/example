@@ -240,7 +240,7 @@ class GenJson4Ora():
                 # print (user_file_dict[one_user_name])
                 tmp_config_json = {}
 
-                #调整etlsys的顺序在etl,etlbdp之前
+                #调整etlsys数据库用户的执行的顺序在etl,etlbdp之前
                 if one_user_name.lower() == 'etlsys':
                     for oneseq in range(len(config_json)):
                         if config_json[oneseq]['username'] in ['etl','etlbdp']:
