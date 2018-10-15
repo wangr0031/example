@@ -242,6 +242,7 @@ class GenJson4Ora():
 
                 #调整etlsys数据库用户的执行的顺序在etl,etlbdp之前
                 if one_user_name.lower() == 'etlsys':
+                    tmp_etl_seq=fileSeq
                     for oneseq in range(len(config_json)):
                         if config_json[oneseq]['username'] in ['etl','etlbdp']:
                             tmp_seq=config_json[oneseq]['fileSeq']

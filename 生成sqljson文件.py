@@ -21,9 +21,9 @@ from gen_json_ora import GenJson4Ora
 db_con_dns = {
     'instance': {
         'cc': ['apig', 'ftf', 'cic', 'cpc', 'cpc_flow', 'custc', 'oc', 'drm', 'ebc', 'pos', 'sa', 'src', 'ab', 'bc',
-               'pcc', 'pcb', 'inv', 'rb', 'med', 'sett', 'stbp', 'etl', 'dap','etlsys','etlbdp']},
+               'pcc', 'pcb', 'inv', 'rb', 'med', 'sett', 'stbp', 'etl', 'dap','etlsys','etlbdp','vcon','vcoff']},
     'dburl': {'cc': ['172.16.80.41', '11521']},
-    'password': ''
+    'password': '1jian8Shu!'
 }
 # db_con_dns = {
 #     'instance': {
@@ -32,7 +32,7 @@ db_con_dns = {
 #     'dburl': {'dbepdb': ['172.16.24.172', '1521']},
 #     'password': ''
 # }
-script_home = r'C:\Users\cc\Desktop\0925\dbeptest1\app_stateless'
+script_home = r'C:\Users\cc\Desktop\所内测试\周部署\验收A\20181008\dbeptest4\app_stateless'
 gen = GenJson4Ora(script_home, db_con_dns)
 gen.MainProcess()
 

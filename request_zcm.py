@@ -7,11 +7,14 @@ import datetime
 import os, re
 from openpyxl import Workbook
 from openpyxl.styles import Font, PatternFill
+import pymysql
 
 project_code_map = {'dbeptest1': [562023, 3061],
                     'dbeptest2': [562024, 3061],
                     'dbepdc': [562057, 2],
-                    'dbepuat1': [562063, 2]}
+                    'dbepuat1': [562063, 2],
+                    'dbeptest4':[562076,3061],
+                    'dbeptest5': [562077, 3061]}
 
 
 class ZcmRequest():
@@ -194,6 +197,7 @@ class ZcmRequest():
             for one in json_map:
                 applicationName = one['appBaseInfo']['applicationName']
                 image = one['appBaseInfo']['image']
+                applicationId=one['appBaseInfo']['applicationId']
                 res['Application'][applicationName] = image
         return res
         # self.write_map_to_excel(res)

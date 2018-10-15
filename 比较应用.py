@@ -85,18 +85,20 @@ class com_excel_app():
     def compare3(self):
         app_dict = self.get_app_name_from_excel()
         app_list = self.get_app_name_from_excel_app_midware()
+        #print (app_dict)
+        #print(app_list)
 
         for oneapp in app_list:
             if oneapp in app_dict.keys():
                 pass
             else:
-                print("\033[1;31mexcel APP info {} not match with APP midware,please modify Excel {}\033[0m".format(
+                print("\033[1;32m[Warning] excel APP info {} not match with APP midware,please modify Excel {}\033[0m".format(
                     oneapp, self.excel_path))
 
 
 if __name__ == '__main__':
-    excel_file = r'C:\Users\cc\Desktop\0925\dbeptest1\midware.xlsx'
-    app_dir = r'C:\Users\cc\Desktop\0925\dbeptest1'
+    excel_file = r'C:\Users\cc\Desktop\所内测试\周部署\验收A\midware.xlsx'
+    app_dir = r'C:\Users\cc\Desktop\所内测试\周部署\验收A\20181008\dbeptest4'
     c = com_excel_app(excel_file, app_dir)
     c.compare()
     c.compare2()
